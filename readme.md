@@ -45,30 +45,30 @@ loCalendar.LoadMDFromXML('enus.xml')
 
 ## XML metadata
 ### Files
-cs.xml - Czech data
-de.xml - German data
-deat.xml - Austria data
-debe.xml - Belguim - German data
-dech.xml - Switzerland - German data
-deli.xml - Liechtenstein data
-enca.xml - Canada - English data
-engb.xml - United Kingdom data
-enus.xml - US english data
-es.xml - Spain data
-frbe.xml - Belgium-French data
-frca.xml - Canada - French data
-frch.xml - Switzerland - French data
-frfr.xml - French data
-hu.xml - Hungarian data
-it.xml - Italien data
-itch.xml - Switzerland - Italian data
-nl.xml - Dutch-standard data
-nlbe.xml - Belgium-Dutch data
-pl.xml - Polish data
-pt.xml - Portugal data
-sk.xml - Slovak data
-tl.xml - Philippines data 
-tr.xml - Turkish data
+* cs.xml - Czech data
+* de.xml - German data
+* deat.xml - Austria data
+* debe.xml - Belguim - German data
+* dech.xml - Switzerland - German data
+* deli.xml - Liechtenstein data
+* enca.xml - Canada - English data
+* engb.xml - United Kingdom data
+* enus.xml - US english data
+* es.xml - Spain data
+* frbe.xml - Belgium-French data
+* frca.xml - Canada - French data
+* frch.xml - Switzerland - French data
+* frfr.xml - French data
+* hu.xml - Hungarian data
+* it.xml - Italien data
+* itch.xml - Switzerland - Italian data
+* nl.xml - Dutch-standard data
+* nlbe.xml - Belgium-Dutch data
+* pl.xml - Polish data
+* pt.xml - Portugal data
+* sk.xml - Slovak data
+* tl.xml - Philippines data 
+* tr.xml - Turkish data
 
 ### Days localization
 `<days></days>`
@@ -89,13 +89,13 @@ tr.xml - Turkish data
 `<namedays></namedays>`
 
 ### Days definition
-`<day />` 
-`key=""` - unique key for day in year. Can be text or number (MMDD)
-`name=""` - name of day
-`method=""` - method for day calculation 
-`metadata=""` - metadata for day calculation
-`multi=""` - method can return more days
-`validity=""` - expression for time validity
+* `<day />` 
+* `key=""` - unique key for day in year. Can be text or number (MMDD)
+* `name=""` - name of day
+* `method=""` - method for day calculation 
+* `metadata=""` - metadata for day calculation
+* `multi=""` - method can return more days
+* `validity=""` - expression for time validity
 
 #### Methods definition
 |  Method | Metadata | Format |
