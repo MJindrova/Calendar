@@ -29,19 +29,19 @@
 
 
 ## Examples
-```foxpro
-    SET PROCEDURE TO calendar_md.VCX ADDITIVE
-    loCalendar=CREATEOBJECT("_mdcalendar") 
-    loCalendar.LoadMDFromXML('enus.xml')
-    ?loCalendar.GetProximateWorkDay(DATE()) && get proximate work day
-    ?loCalendar.GetWeekDays(DATE(2018,07,01),DATE(),.F.) && get work days from date interval
-    ?loCalendar.IsHollyday(DATE(2018,07,04)) && Check if day is hollyday
-    ?loCalendar.IsWorkday(DATE(2018,07,04)) && Check if day is work day
-    ?loCalendar.GetEasterSunday(DATE(2018,01,01)) && return Easter Sunday for year 2018
-    ?loCalendar.GetNameDayText(DATE(2018,07,04),.T.) && return names in day (for europe calendar)
-    ?loCalendar.GetDayBaseName(DATE(2018,07,04))
-    ?loCalendar.GetDayCaption(DATE(2018,07,04),1+2+4+8+16) && return all day caption
-    ``` 
+```
+SET PROCEDURE TO calendar_md.VCX ADDITIVE
+loCalendar=CREATEOBJECT("_mdcalendar") 
+loCalendar.LoadMDFromXML('enus.xml')
+?loCalendar.GetProximateWorkDay(DATE()) && get proximate work day
+?loCalendar.GetWeekDays(DATE(2018,07,01),DATE(),.F.) && get work days from date interval
+?loCalendar.IsHollyday(DATE(2018,07,04)) && Check if day is hollyday
+?loCalendar.IsWorkday(DATE(2018,07,04)) && Check if day is work day
+?loCalendar.GetEasterSunday(DATE(2018,01,01)) && return Easter Sunday for year 2018
+?loCalendar.GetNameDayText(DATE(2018,07,04),.T.) && return names in day (for europe calendar)
+?loCalendar.GetDayBaseName(DATE(2018,07,04))
+?loCalendar.GetDayCaption(DATE(2018,07,04),1+2+4+8+16) && return all day caption
+``` 
 
 ## XML metadata
 ### Files
