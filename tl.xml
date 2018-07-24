@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- http://en.wikipedia.org/wiki/Public_holidays_in_the_Philippines -->
+<calendarmd fdow="2" fweek="1" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Lunes" />
+  <day id="2" name="Martes" />
+  <day id="3" name="Miyerkules" />
+  <day id="4" name="Huwebes" />
+  <day id="5" name="Biyernes" />
+  <day id="6" name="Sabado" />
+  <day id="7" name="Linggo" />
+ </days>
+
+ <months>
+  <month id="1" name="Enero" />
+  <month id="2" name="Pebrero" />
+  <month id="3" name="Marso" />
+  <month id="4" name="Abril" />
+  <month id="5" name="Mayo" />
+  <month id="6" name="Hunyo" />
+  <month id="7" name="Hulyo" />
+  <month id="8" name="Agosto" />
+  <month id="9" name="Setyembre" />
+  <month id="10" name="Oktubre" />
+  <month id="11" name="Nobyembre" />
+  <month id="12" name="Disyembre" />
+ </months>
+
+ <_hollydays priority="1">
+  <day key="01XX" name="chinese new year" />
+  <day key="XXYY" name="Wakas ng Ramadan" x="End of the holy month of Ramadan; based on Islamic calendar"/>
+  <day key="XXYY" name="Araw ng Pag-alay" x="2 days; based on Islamic calendar<refhttp://www.pia.gov.ph/?m=12&r=&y=&mo=&fi=p090413.htm&no=12 />"/>
+ </_hollydays>
+
+ <hollydays priority="1">
+  <day key="0101" name="Araw ng Bagong Taon" />
+  <day key="0225" name="Lakas ng Bayan" />
+  <day key="MOTH" name="Huwebes Santo" method="GetMaundyThursday" metadata="" multi="0" />
+  <day key="GOODF" name="Biyernes Santo" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EASU" name="Linggo ng Pagkabuhay" method="GetEasterSunday" metadata="" multi="0" />
+  <day key="0409" name="Araw ng Kagitingan" method="GetNearstDayOfMonthMD" metadata="040901" />
+  <day key="0501" name="Araw ng Manggagawa" method="GetNearstDayOfMonthMD" metadata="050101" />
+  <day key="0612" name="Araw ng Kasarinlan" method="GetNearstDayOfMonthMD" metadata="061201" />
+  <day key="0821" name="Araw ng Kabayanihan ni Ninoy Aquino" method="GetNearstDayOfMonthMD" metadata="082101" />
+  <day key="AULM" name="Araw ng mga Bayani" method="GetLastDayOfMonthMD" metadata="0801" multi="0" />
+  <day key="1101" name="Undas/Todos los Santos" />
+  <day key="1102" name="Araw ng mga Patay" />
+  <day key="1130" name="Kaarawan ni Bonifacio" />
+  <day key="1225" name="Araw ng Pasko" />
+  <day key="1230" name="Araw ng Kabayanihan ni Dr. José Rizal" />
+  <day key="1231" name="Bisperas ng Bagong Taon" />
+ </hollydays>
+
+ <namedays priority="0">
+ </namedays>
+
+</calendarmd>

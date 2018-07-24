@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- http://en.wikipedia.org/wiki/Public_holidays_in_Turkey -->
+<calendarmd fdow="1" fweek="1" fontcharset="238"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Pazartesi" />
+  <day id="2" name="Sali" />
+  <day id="3" name="Çarsamba" />
+  <day id="4" name="Persembe" />
+  <day id="5" name="Cuma" />
+  <day id="6" name="Cumartesi" />
+  <day id="7" name="Pazar" />
+ </days>
+
+ <months>
+  <month id="1" name="Ocak" />
+  <month id="2" name="Subat" />
+  <month id="3" name="Mart" />
+  <month id="4" name="Nisan" />
+  <month id="5" name="Mayis" />
+  <month id="6" name="Haziran" />
+  <month id="7" name="Temmuz" />
+  <month id="8" name="Agustos" />
+  <month id="9" name="Eylül" />
+  <month id="10" name="Ekim" />
+  <month id="11" name="Kasim" />
+  <month id="12" name="Aralik" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Yilbaşi" />
+  <day key="0423" name="Ulusal Egemenlik ve Çocuk Bayrami" />
+  <day key="0501" name="Emek ve Dayanişma Günü" />
+  <day key="0519" name="Atatürk'ü Anma Gençlik ve Spor Bayrami" />
+  <day key="0830" name="Zafer Bayrami" />
+  <day key="1029" name="Cumhuriyet Bayrami" />
+ </hollydays>
+
+ <significantdays priority="3">
+ </significantdays>
+
+ <namedays priority="0">
+ </namedays>
+
+</calendarmd>

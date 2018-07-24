@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="0" lc_dayname="0" lc_monthname="0" >
+ <days>
+  <day id="1" name="Maandag" />
+  <day id="2" name="Dinsdag" />
+  <day id="3" name="Woensdag" />
+  <day id="4" name="Donderdag" />
+  <day id="5" name="Vrijdagdag" />
+  <day id="6" name="Zaterdag" />
+  <day id="7" name="Zondag" />
+ </days>
+
+ <months>
+  <month id="1" name="Januari" />
+  <month id="2" name="Februari" />
+  <month id="3" name="Mart" />
+  <month id="4" name="April" />
+  <month id="5" name="Mei" />
+  <month id="6" name="Juni" />
+  <month id="7" name="Juli" />
+  <month id="8" name="Augustus" />
+  <month id="9" name="September" />
+  <month id="10" name="Oktober" />
+  <month id="11" name="November" />
+  <month id="12" name="December" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Nieuwjaar" />
+  <day key="GOODF" name="Goede Vrijdag" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Pasen" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0430" name="Koninginnedag" />
+  <day key="0505" name="Bevrijdingsdag" validity="%YEAR%&gt;1945 AND (%YEAR%-1950)%5=0" />
+  <day key="EASU40" name="Hemelvaartsdag" method="GetAscensionDay" metadata="" multi="0" />
+  <day key="EASU49" name="Pinksteren" method="GetPentecost" metadata="" multi="0" />
+  <day key="1225" name="Kerstmis" />
+  <day key="1226" name="Kerstmis" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0504" name="Dodenherdenking" />
+  <day key="1205" name="Sinterklaas" />
+  <day key="1215" name="Koninkrijksdag" />
+ </significantdays>
+
+ <namedays priority="0">
+ </namedays>
+
+</calendarmd>

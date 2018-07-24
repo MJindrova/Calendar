@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- http://en.wikipedia.org/wiki/Public_holidays_in_Belgium -->
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Maandag" />
+  <day id="2" name="Dinsdag" />
+  <day id="3" name="Woensdag" />
+  <day id="4" name="Donderdag" />
+  <day id="5" name="Vrijdagdag" />
+  <day id="6" name="Zaterdag" />
+  <day id="7" name="Zondag" />
+ </days>
+
+ <months>
+  <month id="1" name="Januari" />
+  <month id="2" name="Februari" />
+  <month id="3" name="Mart" />
+  <month id="4" name="April" />
+  <month id="5" name="Mei" />
+  <month id="6" name="Juni" />
+  <month id="7" name="Juli" />
+  <month id="8" name="Augustus" />
+  <month id="9" name="September" />
+  <month id="10" name="Oktober" />
+  <month id="11" name="November" />
+  <month id="12" name="December" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Nieuwjaar" />
+  <day key="GOODF" name="Pasen" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Paasmaandag" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="Dag van de arbeid" />
+  <day key="EASU39" name="Onze Lieve Heer hemelvaart" method="GetAscensionDay" metadata="" multi="0" />
+  <day key="EASU49" name="Pinksteren" method="GetPentecost" metadata="" multi="0" />
+  <day key="EASU50" name="Pinksteren" method="GetWhitMonday" metadata="" multi="0" />
+  <day key="0721" name="Nationale feestdag" />
+  <day key="0815" name="Onze Lieve Vrouw hemelvaart" />
+  <day key="1101" name="Allerheiligen" />
+  <day key="1111" name="Wapenstilstand" />
+  <day key="1226" name="Kerstmis" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0106" name="Driekoningen" />
+  <day key="0214" name="Valentijnsdag" />
+  <day key="1107" name="Feest van de Vlaamse Gemeenschap" />
+  <day key="1102" name="Allerzielen" />
+  <day key="1115" name="Koningsdag" />
+  <day key="1206" name="Sinterklaas" />
+ </significantdays>
+
+ <namedays priority="0">
+ </namedays>
+
+</calendarmd>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="1" fweek="1" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="2" name="Lundi" />
+  <day id="3" name="Mardi" />
+  <day id="4" name="Mercredi" />
+  <day id="5" name="Jeudi" />
+  <day id="6" name="Vendredi" />
+  <day id="7" name="Samedi" />
+  <day id="1" name="Dimanche" />
+ </days>
+
+ <months>
+  <month id="1" name="Janvier" />
+  <month id="2" name="Février" />
+  <month id="3" name="Mars" />
+  <month id="4" name="Avril" />
+  <month id="5" name="Mai" />
+  <month id="6" name="Juin" />
+  <month id="7" name="Juillet" />
+  <month id="8" name="Août" />
+  <month id="9" name="Septembre" />
+  <month id="10" name="Octobre" />
+  <month id="11" name="Novembre" />
+  <month id="12" name="Décembre" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Jour de l'an" method="" metadata="" multi="0" />
+  <day key="GOODF" name="Vendredi saint" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="0701" name="La fête du Canada" method="" metadata="" multi="0" />
+  <day key="SEFM" name="La fête du travail" method="GetFirstDayofMonthMD" metadata="0902" multi="0" />
+  <day key="1225" name="Noël" method="" metadata="" multi="0" />
+ </hollydays>
+ 
+</calendarmd>

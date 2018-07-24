@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="238"  lc_dayname="1" lc_monthname="1">
+ <days>
+  <day id="1" name="Pondělí" />
+  <day id="2" name="Úterý" />
+  <day id="3" name="Středa" />
+  <day id="4" name="Čtvrtek" />
+  <day id="5" name="Pátek" />
+  <day id="6" name="Sobota" />
+  <day id="7" name="Neděle" />
+ </days>
+
+ <months>
+  <month id="1" name="Leden" />
+  <month id="2" name="Únor" />
+  <month id="3" name="Březen" />
+  <month id="4" name="Duben" />
+  <month id="5" name="Květen" />
+  <month id="6" name="Červen" />
+  <month id="7" name="Červenec" />
+  <month id="8" name="Srpen" />
+  <month id="9" name="Září" />
+  <month id="10" name="Říjen" />
+  <month id="11" name="Listopad" />
+  <month id="12" name="Prosinec" />
+ </months>
+ 
+ <hollydays priority="1">
+  <day key="0101" name="Nový rok" />
+  <day key="GOODFR" name="Velikonoční pátek" method="GetGoodFriday" metadata="" multi="0"  validity="%YEAR%&gt;=2016"/>
+  <day key="EAMO" name="Velikonoční pondělí" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="Svátek práce" />
+  <day key="0509" name="Den osvobození Sovětskou armádou" validity="BETWEEN(%YEAR%,1945,1990)"/>
+  <day key="0508" name="Den osvobození od fašizmu"  validity="%YEAR%&gt;1990"/>
+  <day key="0705" name="Den slovanských věrozvěstů Cyrila a Metoděje" />
+  <day key="0706" name="Den upálení mistra Jana Husa" />
+  <day key="0928" name="Den české státnosti" />
+  <day key="1028" name="Den vzniku samostatného československého státu" />
+  <day key="1117" name="Den boje za svobodu a demokracii" />
+  <day key="1224" name="Štědrý den" />
+  <day key="1225" name="1. svátek vánoční" />
+  <day key="1226" name="2. svátek vánoční" />
+ </hollydays>
+ 
+ <internationaldays priority="2">
+  <day key="0127" name="Mezinárodní den památky obětí holocaustu" />
+  <day key="0204" name="Světový den rakoviny" />
+  <day key="0220" name="Světový den sociální spravedlnosti" />
+  <day key="0221" name="Mezinárodní den mateřského jazyka" />
+  <day key="0308" name="Mezinárodní den žen" />
+  <day key="0321" name="Mezinárodní den za odstranění rasové diskriminace" />
+  <day key="0322" name="Světový den vody" />
+  <day key="0323" name="Světový den meteorologie" />
+  <day key="0404" name="Mezinárodní den proti nášlapným minám" />
+  <day key="0407" name="Světový den zdraví" />
+  <day key="0423" name="Světový den knihy a autorských práv" />
+  <day key="0425" name="Světový den malárie" />
+  <day key="0503" name="Světový den svobody tisku" />
+  <day key="0508" name="Vzpomínkový den na ty, kdo ztratili svůj život během druhé světové války" />
+  <day key="0515" name="Mezinárodní den rodiny" />
+  <day key="0517" name="Světový den informační společnosti" />
+  <day key="0521" name="Světový den kulturní rozmanitosti" />
+  <day key="0522" name="Mezinárodní den biologické rozmanitosti" />
+  <day key="0529" name="Mezinárodí den příslušníků mírových operací OSN" />
+  <day key="0531" name="Světový den bez tabáku" />
+  <day key="0604" name="Mezinárodní den dětí, které se staly obětí agrese" />
+  <day key="0605" name="Světový den životního prostředí" />
+  <day key="0612" name="Světový den proti dětské práci" />
+  <day key="0617" name="Mezinárodní den proti rozšiřování pouští a sucha" />
+  <day key="0620" name="Světový den uprchlíků" />
+  <day key="0626" name="Mezinárodní den proti zneužívání drog a nezákonnému obchodování s nimi" />
+  <day key="0711" name="Světový den populace" />
+  <day key="0809" name="Mezinárodní den původního obyvatelstva" />
+  <day key="0812" name="Mezinárodní den mládeže" />
+  <day key="0823" name="Mezinárodní den památky obětí obchodu s otroky" />
+  <day key="0908" name="Mezinárodní den gramotnosti" />
+  <day key="0916" name="Mezinárodní den ochrany ozonové vrstvy" />
+  <day key="0921" name="Mezinárodní den míru" />
+  <day key="1001" name="Mezinárodní den seniorů" />
+  <day key="1002" name="Světový den nenásilí" />
+  <day key="1005" name="Světový den učitelů" />
+  <day key="1009" name="Světový den pošty" />
+  <day key="1010" name="Světový den duševního zdraví" />
+  <day key="1012" name="Mezinárodní den za omezení přírodních katastrof" />
+  <day key="1016" name="Světový den výživy" />
+  <day key="1017" name="Mezinárodní den za odstranění chudoby" />
+  <day key="1024" name="Den Spojených národů" />
+  <day key="1024" name="Týden za odzbrojení" />
+  <day key="1025" name="Týden za odzbrojení" />
+  <day key="1026" name="Týden za odzbrojení" />
+  <day key="1027" name="Týden za odzbrojení" />
+  <day key="1028" name="Týden za odzbrojení" />
+  <day key="1029" name="Týden za odzbrojení" />
+  <day key="1030" name="Týden za odzbrojení" />
+  <day key="1106" name="Mezinárodní den prevence ničení životního prostředí v průběhu válek a ozbrojených konfliktů" />
+  <day key="1116" name="Mezinárodní den tolerance" />
+  <day key="1120" name="Světový den dětí" />
+  <day key="1121" name="Světový den televize" />
+  <day key="1125" name="Mezinárodní den za odstranění násilí páchaného na ženách" />
+  <day key="1129" name="Mezinárodní den solidarity s lidem Palestiny" />
+  <day key="1201" name="Světový den AIDS" />
+  <day key="1202" name="Mezinárodní den za odstranění otroctví" />
+  <day key="1203" name="Mezinárodní den lidí s postižením" />
+  <day key="1205" name="Mezinárodní den dobrovolníků" />
+  <day key="1207" name="Mezinárodní den civilního letectví" />
+  <day key="1210" name="Den lidských práv" />
+  <day key="1211" name="Mezinárodní den hor" />
+  <day key="1218" name="Mezinárodní den migrantů" />
+  <day key="1220" name="Mezinárodní den lidské solidarity" />
+  <day key="05SDM" name="Světový den modliteb" method="GetXDayOfMonthMD" metadata="030501" multi="0" />
+  <day key="04SDSM" name="Světový den sdružených měst" method="GetLastDayOfMonthMD" metadata="0407" multi="0" />
+  <day key="05MDM" name="Mezinárodní den mléka" method="GetXDayOfMonthMD" metadata="050104" multi="0" />
+  <day key="05KD" name="Květinový den" method="GetXDayOfMonthMD" metadata="050302" multi="0" />
+  <day key="05DM" name="Den matek" method="GetXDayOfMonthMD" metadata="050702" multi="0" />
+  <day key="05DPONAIDS" name="Den památky obětí nemoci AIDS" method="GetXDayOfMonthMD" metadata="050703" multi="0" />
+  <day key="05DK" name="Den koní" method="GetLastDayOfMonthMD" metadata="0507" multi="0" />
+  <day key="06MDŽ" name="Mezinárodní den žonglování" method="GetXDayOfMonthMD" metadata="060602" multi="0" />
+  <day key="06DO" name="Den otců" method="GetXDayOfMonthMD" metadata="060703" multi="0" />
+  <day key="07MDD" name="Mezinárodní den družstev" method="GetXDayOfMonthMD" metadata="070601" multi="0" />
+  <day key="09MDM" name="Mezinárodní den míru" method="GetXDayOfMonthMD" metadata="090203" multi="0" />
+  <day key="09L07-1" name="Mezinárodní den modliteb za pronásledované křesťany" method="GetLastDayOfMonthMD" metadata="0907" multi="0" />
+  <day key="09L07-2" name="Mezinárodní den neslyšících" method="GetLastDayOfMonthMD" metadata="0907" multi="0" />
+  <day key="09LW" name="Světový námořní den" method="GetLastWeekofMonthMD" metadata="09" multi="1" />
+  <day key="100101-1" name="Světový den sídel (HABITAT)" method="GetXDayOfMonthMD" metadata="100101" multi="0" />
+  <day key="100101-2" name="Světový den dětí" method="GetXDayOfMonthMD" metadata="100101" multi="0" />
+  <day key="100101-3" name="Světový den architektury" method="GetXDayOfMonthMD" metadata="100101" multi="0" />
+  <day key="100302" name="Mezinárodní den za omezení přírodních katastrof" method="GetXDayOfMonthMD" metadata="100302" multi="0" />
+  <day key="11SDJ" name="Světový den jakosti (kvality)" method="GetXDayOfMonthMD" metadata="110402" multi="0" />
+  <day key="110403-1" name="Mezinárodní nekuřácký den" method="GetXDayOfMonthMD" metadata="110403" multi="0" />
+  <day key="110403-2" name="Den filosofie" method="GetXDayOfMonthMD" metadata="110403" multi="0" />
+ </internationaldays>
+ 
+ <namedays priority="0">
+  <day key="1224" name="Adam" />
+  <day key="0902" name="Adéla" />
+  <day key="0617" name="Adolf" />
+  <day key="0626" name="Adriana" />
+  <day key="1014" name="Agáta" />
+  <day key="0814" name="Alan" />
+  <day key="1121" name="Albert" />
+  <day key="1216" name="Albína" />
+  <day key="0813" name="Alena" />
+  <day key="0413" name="Aleš" />
+  <day key="0227" name="Alexandr" />
+  <day key="0421" name="Alexandra" />
+  <day key="0503" name="Alexej" />
+  <day key="0115" name="Alice" />
+  <day key="0621" name="Alois" />
+  <day key="1119" name="Alžběta" />
+  <day key="0710" name="Amálie" />
+  <day key="0415" name="Anastázie" />
+  <day key="0311" name="Anděla" />
+  <day key="0926" name="Andrea" />
+  <day key="1011" name="Andrej" />
+  <day key="0517" name="Aneta" />
+  <day key="0302" name="Anežka" />
+  <day key="0726" name="Anna" />
+  <day key="0612" name="Antonie" />
+  <day key="0613" name="Antonín" />
+  <day key="0209" name="Apolena" />
+  <day key="0330" name="Arnošt" />
+  <day key="1126" name="Artur" />
+  <day key="0828" name="Augustýn" />
+  <day key="1204" name="Barbora" />
+  <day key="0824" name="Bartoloměj" />
+  <day key="1025" name="Beáta" />
+  <day key="0301" name="Bedřich" />
+  <day key="0121" name="Běla" />
+  <day key="1112" name="Benedikt" />
+  <day key="1207" name="Benjamín" />
+  <day key="0416" name="Bernadeta" />
+  <day key="0820" name="Bernard" />
+  <day key="0923" name="Berta" />
+  <day key="0430" name="Blahoslav" />
+  <day key="1202" name="Blanka" />
+  <day key="0203" name="Blažej" />
+  <day key="0510" name="Blažena" />
+  <day key="1109" name="Bohdan" />
+  <day key="0111" name="Bohdana" />
+  <day key="1003" name="Bohumil" />
+  <day key="1228" name="Bohumila" />
+  <day key="1108" name="Bohumír" />
+  <day key="0822" name="Bohuslav" />
+  <day key="0707" name="Bohuslava" />
+  <day key="0906" name="Boleslav" />
+  <day key="0514" name="Bonifác" />
+  <day key="0905" name="Boris" />
+  <day key="0712" name="Bořek" />
+  <day key="0730" name="Bořivoj" />
+  <day key="0211" name="Božena" />
+  <day key="1021" name="Brigita" />
+  <day key="0903" name="Bronislav" />
+  <day key="0611" name="Bruno" />
+  <day key="0110" name="Břetislav" />
+  <day key="1122" name="Cecílie" />
+  <day key="0509" name="Ctibor" />
+  <day key="0116" name="Ctirad" />
+  <day key="0705" name="Cyril a Metoděj" />
+  <day key="0719" name="Čeněk" />
+  <day key="0108" name="Čestmír" />
+  <day key="1220" name="Dagmar" />
+  <day key="0604" name="Dalibor" />
+  <day key="0105" name="Dalimil" />
+  <day key="1211" name="Dana" />
+  <day key="1217" name="Daniel" />
+  <day key="0909" name="Daniela" />
+  <day key="0922" name="Darina" />
+  <day key="0410" name="Darja" />
+  <day key="1230" name="David" />
+  <day key="0911" name="Denisa" />
+  <day key="0104" name="Diana" />
+  <day key="0327" name="Dita" />
+  <day key="0205" name="Dobromila" />
+  <day key="0605" name="Dobroslav" />
+  <day key="0804" name="Dominik" />
+  <day key="0226" name="Dorota" />
+  <day key="0119" name="Doubravka" />
+  <day key="0718" name="Drahomíra" />
+  <day key="0117" name="Drahoslav" />
+  <day key="0709" name="Drahoslava" />
+  <day key="0409" name="Dušan" />
+  <day key="0113" name="Edita" />
+  <day key="0318" name="Eduard" />
+  <day key="0316" name="Elena" />
+  <day key="1005" name="Eliška" />
+  <day key="0408" name="Ema" />
+  <day key="0326" name="Emanuel" />
+  <day key="0522" name="Emil" />
+  <day key="1124" name="Emílie" />
+  <day key="1026" name="Erik" />
+  <day key="0402" name="Erika" />
+  <day key="1219" name="Ester" />
+  <day key="1224" name="Eva" />
+  <day key="0829" name="Evelína" />
+  <day key="1110" name="Evžen" />
+  <day key="0422" name="Evženie" />
+  <day key="1101" name="Felix" />
+  <day key="0530" name="Ferdinand" />
+  <day key="0526" name="Filip" />
+  <day key="1004" name="František" />
+  <day key="0309" name="Františka" />
+  <day key="0324" name="Gabriel" />
+  <day key="0308" name="Gabriela" />
+  <day key="0610" name="Gita" />
+  <day key="0218" name="Gizela" />
+  <day key="0802" name="Gustav" />
+  <day key="0815" name="HHana" />
+  <day key="1006" name="Hanuš" />
+  <day key="1016" name="Havel" />
+  <day key="1017" name="Hedvika" />
+  <day key="0818" name="Helena" />
+  <day key="0316" name="Herbert" />
+  <day key="0407" name="Hermína" />
+  <day key="0407" name="Heřman" />
+  <day key="0229" name="Horymír" />
+  <day key="1103" name="Hubert" />
+  <day key="0401" name="Hugo" />
+  <day key="0201" name="Hynek" />
+  <day key="0315" name="Ida" />
+  <day key="0731" name="Ignác" />
+  <day key="1001" name="Igor" />
+  <day key="0720" name="Ilja" />
+  <day key="0120" name="Ilona" />
+  <day key="0127" name="Ingrid" />
+  <day key="0416" name="Irena" />
+  <day key="0910" name="Irma" />
+  <day key="1201" name="Iva" />
+  <day key="0625" name="Ivan" />
+  <day key="0404" name="Ivana" />
+  <day key="0607" name="Iveta" />
+  <day key="0519" name="Ivo" />
+  <day key="0323" name="Ivona" />
+  <day key="0411" name="Izabela" />
+  <day key="0816" name="Jáchym" />
+  <day key="0725" name="Jakub" />
+  <day key="0624" name="Jan" />
+  <day key="0524" name="Jana" />
+  <day key="0602" name="Jarmil" />
+  <day key="0204" name="Jarmila" />
+  <day key="0924" name="Jaromír" />
+  <day key="0427" name="Jaroslav" />
+  <day key="0701" name="Jaroslava" />
+  <day key="0930" name="Jeroným" />
+  <day key="0715" name="Jindřich" />
+  <day key="0904" name="Jindřiška" />
+  <day key="0424" name="Jiří" />
+  <day key="0215" name="Jiřina" />
+  <day key="1205" name="Jitka" />
+  <day key="0821" name="Johana" />
+  <day key="0915" name="Jolana" />
+  <day key="0927" name="Jonáš" />
+  <day key="0319" name="Josef" />
+  <day key="1229" name="Judita" />
+  <day key="1210" name="Julie" />
+  <day key="0412" name="Julius" />
+  <day key="1007" name="Justýna" />
+  <day key="0303" name="Kamil" />
+  <day key="0531" name="Kamila" />
+  <day key="1104" name="Karel" />
+  <day key="0102" name="Karina" />
+  <day key="0714" name="Karolína" />
+  <day key="1125" name="Kateřina" />
+  <day key="0305" name="Kazimír" />
+  <day key="0812" name="Klára" />
+  <day key="0505" name="Klaudie" />
+  <day key="1123" name="Klement" />
+  <day key="0805" name="Kristián" />
+  <day key="0724" name="Kristýna" />
+  <day key="0918" name="Kryštof" />
+  <day key="0620" name="Květa" />
+  <day key="0504" name="Květoslav" />
+  <day key="1208" name="Květoslava" />
+  <day key="0331" name="Kvido" />
+  <day key="0807" name="Lada" />
+  <day key="0627" name="Ladislav" />
+  <day key="0601" name="Laura" />
+  <day key="0221" name="Lenka" />
+  <day key="0322" name="Leona" />
+  <day key="1115" name="Leopold" />
+  <day key="0619" name="Leoš" />
+  <day key="1106" name="Liběna" />
+  <day key="0723" name="Libor" />
+  <day key="0710" name="Libuše" />
+  <day key="0225" name="Liliana" />
+  <day key="0901" name="Linda" />
+  <day key="0216" name="Ljuba" />
+  <day key="0628" name="Lubomír" />
+  <day key="0913" name="Lubor" />
+  <day key="0716" name="Luboš" />
+  <day key="1213" name="Lucie" />
+  <day key="0826" name="Luděk" />
+  <day key="0916" name="Ludmila" />
+  <day key="0819" name="Ludvík" />
+  <day key="1018" name="Lukáš" />
+  <day key="0228" name="Lumír" />
+  <day key="1214" name="Lýdie" />
+  <day key="0722" name="Magdaléna" />
+  <day key="1117" name="Mahulena" />
+  <day key="1012" name="Marcel" />
+  <day key="0420" name="Marcela" />
+  <day key="0425" name="Marek" />
+  <day key="0325" name="Marián" />
+  <day key="0908" name="Mariana" />
+  <day key="0912" name="Marie" />
+  <day key="0131" name="Marika" />
+  <day key="1010" name="Marina" />
+  <day key="0713" name="Markéta" />
+  <day key="0729" name="Marta" />
+  <day key="1111" name="Martin" />
+  <day key="0717" name="Martina" />
+  <day key="0224" name="Matěj" />
+  <day key="0921" name="Matouš" />
+  <day key="0314" name="Matylda" />
+  <day key="0529" name="Maxmilián" />
+  <day key="0608" name="Medard" />
+  <day key="1019" name="Michaela" />
+  <day key="0929" name="Michal" />
+  <day key="1019" name="Michala" />
+  <day key="1206" name="Mikuláš" />
+  <day key="0208" name="Milada" />
+  <day key="0618" name="Milan" />
+  <day key="0124" name="Milena" />
+  <day key="1218" name="Miloslav" />
+  <day key="0217" name="Miloslava" />
+  <day key="0125" name="Miloš" />
+  <day key="0803" name="Miluše" />
+  <day key="1105" name="Miriam" />
+  <day key="0306" name="Miroslav" />
+  <day key="0405" name="Miroslava" />
+  <day key="0210" name="Mojmír" />
+  <day key="0521" name="Monika" />
+  <day key="0917" name="Naděžda" />
+  <day key="1221" name="Natálie" />
+  <day key="0518" name="Nataša" />
+  <day key="0202" name="Nela" />
+  <day key="1120" name="Nikola" />
+  <day key="1024" name="Nina" />
+  <day key="0708" name="Nora" />
+  <day key="0606" name="Norbert" />
+  <day key="0220" name="Oldřich" />
+  <day key="0806" name="Oldřiška" />
+  <day key="0920" name="Oleg" />
+  <day key="0711" name="Olga" />
+  <day key="1002" name="Oliver" />
+  <day key="1002" name="Olivie" />
+  <day key="1130" name="Ondřej" />
+  <day key="0801" name="Oskar" />
+  <day key="0827" name="Otakar" />
+  <day key="1116" name="Otmar" />
+  <day key="0426" name="Oto" />
+  <day key="0128" name="Otýlie" />
+  <day key="0512" name="Pankrác" />
+  <day key="0702" name="Patricie" />
+  <day key="0219" name="Patrik" />
+  <day key="0622" name="Pavla" />
+  <day key="0831" name="Pavlína" />
+  <day key="0222" name="Petr" />
+  <day key="0629" name="Petr a Pavel" />
+  <day key="0817" name="Petra" />
+  <day key="0112" name="Pravoslav" />
+  <day key="0704" name="Prokop" />
+  <day key="0516" name="Přemysl" />
+  <day key="1215" name="Radana" />
+  <day key="0321" name="Radek" />
+  <day key="0914" name="Radka" />
+  <day key="0825" name="Radim" />
+  <day key="0103" name="Radmila" />
+  <day key="0703" name="Radomír" />
+  <day key="0506" name="Radoslav" />
+  <day key="0114" name="Radovan" />
+  <day key="0907" name="Regína" />
+  <day key="1013" name="Renáta" />
+  <day key="1128" name="René" />
+  <day key="0403" name="Richard" />
+  <day key="0429" name="Robert" />
+  <day key="0130" name="Robin" />
+  <day key="0614" name="Roland" />
+  <day key="0809" name="Roman" />
+  <day key="1118" name="Romana" />
+  <day key="0419" name="Rostislav" />
+  <day key="0417" name="Rudolf" />
+  <day key="0314" name="Rút" />
+  <day key="0313" name="Růžena" />
+  <day key="0312" name="Řehoř" />
+  <day key="1022" name="Sabina" />
+  <day key="0901" name="Samuel" />
+  <day key="0823" name="Sandra" />
+  <day key="1009" name="Sára" />
+  <day key="1107" name="Saskie" />
+  <day key="1114" name="Sáva" />
+  <day key="0513" name="Servác" />
+  <day key="1231" name="Silvestr" />
+  <day key="1029" name="Silvie" />
+  <day key="1212" name="Simona" />
+  <day key="0212" name="Slavěna" />
+  <day key="0607" name="Slavoj" />
+  <day key="0122" name="Slavomír" />
+  <day key="0808" name="Soběslav" />
+  <day key="0328" name="Soňa" />
+  <day key="0507" name="Stanislav" />
+  <day key="0609" name="Stanislava" />
+  <day key="0304" name="Stela" />
+  <day key="0511" name="Svatava" />
+  <day key="0223" name="Svatopluk" />
+  <day key="1203" name="Svatoslav" />
+  <day key="0320" name="Světlana" />
+  <day key="0814" name="Sylva" />
+  <day key="0630" name="Šárka" />
+  <day key="1027" name="Šarlota" />
+  <day key="1222" name="Šimon" />
+  <day key="1009" name="Štefan" />
+  <day key="1226" name="Štěpán" />
+  <day key="1031" name="Štěpánka" />
+  <day key="1030" name="Tadeáš" />
+  <day key="0603" name="Tamara" />
+  <day key="0329" name="Taťána" />
+  <day key="1023" name="Teodor" />
+  <day key="1015" name="Tereza" />
+  <day key="1113" name="Tibor" />
+  <day key="0307" name="Tomáš" />
+  <day key="0928" name="Václav" />
+  <day key="0527" name="Valdemar" />
+  <day key="0214" name="Valentýn" />
+  <day key="0418" name="Valérie" />
+  <day key="0206" name="Vanda" />
+  <day key="0810" name="Vavřinec" />
+  <day key="0213" name="Věnceslav" />
+  <day key="1020" name="Vendelín" />
+  <day key="0406" name="Vendula" />
+  <day key="1008" name="Věra" />
+  <day key="0207" name="Veronika" />
+  <day key="0727" name="Věroslav" />
+  <day key="0728" name="Viktor" />
+  <day key="0310" name="Viktorie" />
+  <day key="0528" name="Vilém" />
+  <day key="0107" name="Vilma" />
+  <day key="0414" name="Vincenc" />
+  <day key="0525" name="Viola" />
+  <day key="0615" name="Vít" />
+  <day key="0721" name="Vítězslav" />
+  <day key="0109" name="Vladan" />
+  <day key="0830" name="Vladěna" />
+  <day key="0523" name="Vladimír" />
+  <day key="0118" name="Vladislav" />
+  <day key="1223" name="Vlasta" />
+  <day key="0317" name="Vlastimil" />
+  <day key="0428" name="Vlastislav" />
+  <day key="0423" name="Vojtěch" />
+  <day key="1209" name="Vratislav" />
+  <day key="1127" name="Xenie" />
+  <day key="0616" name="Zbyněk" />
+  <day key="0520" name="Zbyšek" />
+  <day key="0123" name="Zdeněk" />
+  <day key="0623" name="Zdeňka" />
+  <day key="0129" name="Zdislav" />
+  <day key="0502" name="Zikmund" />
+  <day key="1129" name="Zina" />
+  <day key="0919" name="Zita" />
+  <day key="0925" name="Zlata" />
+  <day key="1027" name="Zoe" />
+  <day key="0126" name="Zora" />
+  <day key="0811" name="Zuzana" />
+  <day key="1227" name="Žaneta" />
+  <day key="0515" name="Žofie" />
+ </namedays>
+ 
+ <significantdays priority="3">
+  <day key="0310" name="Vlajka pro Tibet" />
+  <day key="0312" name="Den přístupu České republiky k Severoatlantické smlouvě" />
+  <day key="0328" name="Den učitelů" />
+  <day key="0601" name="Den dětí" />
+  <day key="0627" name="Den památky obětí komunistického režimu" />
+  <day key="1111" name="Den válečných veteránů" />
+ </significantdays>
+</calendarmd>

@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- http://www.feiertagskalender.ch/index.php?geo=3413&jahr=2010&klasse=5&hl=en -->>
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Lunedi" />
+  <day id="2" name="Martedi" />
+  <day id="3" name="Mercoledi" />
+  <day id="4" name="Giovedi" />
+  <day id="5" name="Venerdi" />
+  <day id="6" name="Sabato" />
+  <day id="7" name="Domenica" />
+ </days>
+
+ <months>
+  <month id="1" name="Gennaio" />
+  <month id="2" name="Febbraio" />
+  <month id="3" name="Marzo" />
+  <month id="4" name="Aprile" />
+  <month id="5" name="Maggio" />
+  <month id="6" name="Giugno" />
+  <month id="7" name="Luglio" />
+  <month id="8" name="Agosto" />
+  <month id="9" name="Settembre" />
+  <month id="10" name="Ottobre" />
+  <month id="11" name="Novembre" />
+  <month id="12" name="Dicembre" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Capodanno" />
+  <day key="0106" name="Epifania" />
+  <day key="0313" name="Pasqua dell'Angelo" />
+  <day key="0325" name="festa della Liberazione" />
+  <day key="GOODF" name="Venerdi Santo" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="La Pasquetta" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="festa dei Lavoratori" />
+  <day key="0602" name="festa della Repubblica Italiana" />
+  <day key="0815" name="Assunzione" />
+  <day key="1101" name="Ognissanti" />
+  <day key="1208" name="festa dell'Immacolata Concezione" />
+  <day key="1225" name="Santo Natale" />
+  <day key="1226" name="Santo Stefano" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0629" name="festa di SS. Pietro e Paolo" />
+  <day key="0624" name="San Giovanni Battista" />
+  <day key="0425" name="San Marco, comunque giorno festivo su tutto il territorio nazionale" />
+  <day key="0919" name="San Gennaro" />
+ </significantdays>
+
+ <namedays priority="0">
+  <day key="0101" name="Maria madre di Dio" />
+  <day key="0102" name="S. Basilio vescovo" />
+  <day key="0102" name="Modesto" />
+  <day key="0103" name="S. Genoveffa" />
+  <day key="0104" name="S. Ermete" />
+  <day key="0104" name="Fausta" />
+  <day key="0104" name="Angela" />
+  <day key="0104" name="Elsa" />
+  <day key="0104" name="Cristiana" />
+  <day key="0105" name="S. Amelia" />
+  <day key="0105" name="Nazario" />
+  <day key="0106" name="SS. Gaspare" />
+  <day key="0106" name="Baldassarre e Melchiorre Raffaello" />
+  <day key="0106" name="Rafaelo" />
+  <day key="0107" name="S. Luciano" />
+  <day key="0107" name="S. Raimondo" />
+  <day key="0108" name="S. Massimo" />
+  <day key="0108" name="S. Severino" />
+  <day key="0109" name="S. Giuliano martire" />
+  <day key="0109" name="Alessia" />
+  <day key="0109" name="Alice" />
+  <day key="0110" name="S. Aldo Eremita" />
+  <day key="0110" name="Domiziano" />
+  <day key="0111" name="S. Igino Papa" />
+  <day key="0112" name="S. Modesto martire" />
+  <day key="0112" name="Probo" />
+  <day key="0112" name="Tatiana" />
+  <day key="0113" name="S. Ilario" />
+  <day key="0113" name="Yvette" />
+  <day key="0113" name="Eliana" />
+  <day key="0113" name="Vero" />
+  <day key="0114" name="S. Felice martire" />
+  <day key="0114" name="S. Bianca Macrina" />
+  <day key="0114" name="Benedetta" />
+  <day key="0114" name="Moreno" />
+  <day key="0115" name="S. Mauro abate" />
+  <day key="0115" name="Ida" />
+  <day key="0116" name="S. Marcello Papa" />
+  <day key="0117" name="S. Antonio abate" />
+  <day key="0117" name="Alba" />
+  <day key="0117" name="Iole" />
+  <day key="0117" name="Nadia" />
+  <day key="0117" name="Nada" />
+  <day key="0117" name="Iolanda" />
+  <day key="0117" name="Jole" />
+  <day key="0117" name="Iole" />
+  <day key="0117" name="Jolanda" />
+  <day key="0117" name="Anteo" />
+  <day key="0118" name="S. Liberata" />
+  <day key="0118" name="Prisca" />
+  <day key="0118" name="Priscilla" />
+  <day key="0118" name="Leonardo" />
+  <day key="0118" name="Beatrice" />
+  <day key="0119" name="S. Mario martire" />
+  <day key="0119" name="Pio" />
+  <day key="0120" name="S. Sebastiano" />
+  <day key="0120" name="Fabiano" />
+  <day key="0120" name="Teodorico" />
+  <day key="0121" name="S. Agnese" />
+  <day key="0121" name="Ines" />
+  <day key="0122" name="S. Vincenzo martire" />
+  <day key="0122" name="Linda" />
+  <day key="0122" name="Esmeralda" />
+  <day key="0122" name="Domenico" />
+  <day key="0122" name="Teodolinda" />
+  <day key="0122" name="Smeralda" />
+  <day key="0123" name="S. Emerenziana" />
+  <day key="0123" name="Ramona" />
+  <day key="0123" name="Armando" />
+  <day key="0124" name="S. Francesco di Sales" />
+  <day key="0124" name="Vera" />
+  <day key="0124" name="Feliciano" />
+  <day key="0125" name="Conversione di S. Paolo" />
+  <day key="0125" name="Savino" />
+  <day key="0125" name="Sabino" />
+  <day key="0126" name="SS. Tito e Timoteo" />
+  <day key="0126" name="S. Paola" />
+  <day key="0127" name="S. Angela Merici" />
+  <day key="0127" name="Elvira" />
+  <day key="0128" name="S. Tommaso d' Aquino" />
+  <day key="0128" name="S. Valerio" />
+  <day key="0129" name="S. Costanzo" />
+  <day key="0129" name="S. Ciro" />
+  <day key="0129" name="Gildo" />
+  <day key="0129" name="Sabrina" />
+  <day key="0130" name="S. Martina" />
+  <day key="0130" name="S. Savina" />
+  <day key="0130" name="Serenella" />
+  <day key="0131" name="S. Giovanni B." />
+  <day key="0131" name="S. Ignazio" />
+  <day key="0131" name="Marcella" />
+  <day key="0131" name="Lodovico" />
+  <day key="0131" name="Geminiano" />
+  <day key="0201" name="S. Verdiana" />
+  <day key="0201" name="Veridiana" />
+  <day key="0201" name="Viridiana" />
+  <day key="0201" name="Brigida" />
+  <day key="0202" name="S. Sabatino vescovo" />
+  <day key="0202" name="Maurizio" />
+  <day key="0203" name="S. Biagio" />
+  <day key="0203" name="S. Oscar" />
+  <day key="0203" name="S. Cinzia" />
+  <day key="0203" name="Ofelia" />
+  <day key="0204" name="S. Gilberto" />
+  <day key="0204" name="Biagio" />
+  <day key="0205" name="S. Agata" />
+  <day key="0206" name="S. Paolo Miki" />
+  <day key="0206" name="Amando" />
+  <day key="0206" name="Dorotea Gastone" />
+  <day key="0206" name="Guarino" />
+  <day key="0206" name="Guerrino" />
+  <day key="0207" name="S. Teodoro martire" />
+  <day key="0207" name="Eugenia" />
+  <day key="0208" name="S. Girolamo Emiliani" />
+  <day key="0208" name="Giacomina" />
+  <day key="0208" name="Jacqueline" />
+  <day key="0208" name="Onorato" />
+  <day key="0209" name="S. Apollonia" />
+  <day key="0210" name="SS. Arnaldo e Scolastica" />
+  <day key="0210" name="Guglielmo" />
+  <day key="0210" name="Wilma" />
+  <day key="0211" name="S. Dante" />
+  <day key="0211" name="B.V. di Lourdes" />
+  <day key="0211" name="Eloisia" />
+  <day key="0211" name="Durante" />
+  <day key="0212" name="S. Eulalia" />
+  <day key="0212" name="Alessio" />
+  <day key="0213" name="S. Maura" />
+  <day key="0213" name="Esmeralda" />
+  <day key="0213" name="Fosca" />
+  <day key="0214" name="S. Valentino martire" />
+  <day key="0215" name="S. Faustino" />
+  <day key="0215" name="Giorgia" />
+  <day key="0215" name="Sigfrido" />
+  <day key="0216" name="S. Giuliana Vergine" />
+  <day key="0217" name="S. Donato martire" />
+  <day key="0217" name="Marianna" />
+  <day key="0217" name="Patrizia" />
+  <day key="0218" name="S. Simone Vescovo" />
+  <day key="0218" name="Cinzia" />
+  <day key="0218" name="Claudio" />
+  <day key="0219" name="S. Mansueto" />
+  <day key="0219" name="S. Tullio" />
+  <day key="0219" name="Corrado" />
+  <day key="0219" name="Publio" />
+  <day key="0220" name="S. Silvano" />
+  <day key="0220" name="S. Eleuterio V." />
+  <day key="0220" name="Ulrico" />
+  <day key="0220" name="Eros" />
+  <day key="0221" name="S. Pier Damiani" />
+  <day key="0221" name="S. Eleonora" />
+  <day key="0221" name="Nora" />
+  <day key="0221" name="Leopoldo" />
+  <day key="0222" name="S. Margherita" />
+  <day key="0222" name="Isabella" />
+  <day key="0222" name="Greta" />
+  <day key="0223" name="S. Renzo" />
+  <day key="0223" name="Livio" />
+  <day key="0223" name="Teo" />
+  <day key="0223" name="Sereno" />
+  <day key="0223" name="Romina" />
+  <day key="0223" name="Romana" />
+  <day key="0224" name="S. Edilberto re" />
+  <day key="0225" name="S. Cesario" />
+  <day key="0225" name="S. Vittorino" />
+  <day key="0225" name="Costanza" />
+  <day key="0226" name="S. Romeo" />
+  <day key="0226" name="Nestore" />
+  <day key="0227" name="S. Leandro" />
+  <day key="0227" name="Onorina" />
+  <day key="0228" name="S. Romano abate" />
+  <day key="0228" name="Antonietta" />
+  <day key="0228" name="Erminio" />
+  <day key="0228" name="Romano" />
+  <day key="0301" name="S. Albino" />
+  <day key="0301" name="Alba" />
+  <day key="0301" name="Ugo" />
+  <day key="0301" name="Ermes" />
+  <day key="0301" name="Ermete" />
+  <day key="0302" name="S. Basileo martire" />
+  <day key="0302" name="Simplicio" />
+  <day key="0302" name="Ava" />
+  <day key="0302" name="Ave" />
+  <day key="0302" name="Ulderico" />
+  <day key="0302" name="Uldegigo" />
+  <day key="0302" name="Ulrico" />
+  <day key="0303" name="S. Cunegonda" />
+  <day key="0303" name="Viola" />
+  <day key="0303" name="Tiziano" />
+  <day key="0304" name="S. Casimiro" />
+  <day key="0304" name="S. Lucio" />
+  <day key="0304" name="Umberto" />
+  <day key="0304" name="Urbano" />
+  <day key="0304" name="Nestore" />
+  <day key="0305" name="S. Adriano" />
+  <day key="0305" name="Foca" />
+  <day key="0305" name="Virgilio" />
+  <day key="0306" name="S. Giordano" />
+  <day key="0306" name="Marziano" />
+  <day key="0306" name="Marzio" />
+  <day key="0306" name="Colette" />
+  <day key="0306" name="Ezio" />
+  <day key="0307" name="S. Felicita" />
+  <day key="0307" name="S. Perpetua" />
+  <day key="0307" name="Augusta" />
+  <day key="0307" name="Ermanno" />
+  <day key="0308" name="S. Giovanni di Dio" />
+  <day key="0308" name="Salvatore" />
+  <day key="0309" name="S. Francesca Romana" />
+  <day key="0310" name="S. Simplicio papa" />
+  <day key="0310" name="Maria Eugenia" />
+  <day key="0310" name="Gaio" />
+  <day key="0310" name="Emiliano" />
+  <day key="0311" name="S. Costantino" />
+  <day key="0312" name="S. Massimiliano" />
+  <day key="0312" name="S. Simplicio" />
+  <day key="0312" name="Zeno" />
+  <day key="0312" name="Zenona" />
+  <day key="0313" name="S. Arrigo" />
+  <day key="0313" name="S. Eufrasia V." />
+  <day key="0313" name="Rodrigo" />
+  <day key="0313" name="Letizia" />
+  <day key="0314" name="S. Matilde regina" />
+  <day key="0314" name="Valeriano" />
+  <day key="0315" name="S. Longino" />
+  <day key="0315" name="S. Luisa" />
+  <day key="0315" name="Cesare" />
+  <day key="0315" name="Silvia" />
+  <day key="0315" name="Lucrezia" />
+  <day key="0316" name="S. Eriberto vescovo" />
+  <day key="0316" name="Taziano" />
+  <day key="0317" name="S. Patrizio" />
+  <day key="0317" name="Teodoro" />
+  <day key="0317" name="Wanda" />
+  <day key="0317" name="Vanda" />
+  <day key="0318" name="S. Salvatore" />
+  <day key="0318" name="S. Cirillo" />
+  <day key="0319" name="S. Giuseppe" />
+  <day key="0319" name="S. Quinto" />
+  <day key="0319" name="Giuseppina" />
+  <day key="0319" name="Pino" />
+  <day key="0319" name="Sibilla" />
+  <day key="0319" name="Quartilla" />
+  <day key="0320" name="S. Alessandra martire" />
+  <day key="0320" name="Claudia" />
+  <day key="0321" name="S. Benedetto" />
+  <day key="0321" name="Filemone" />
+  <day key="0322" name="S. Lea" />
+  <day key="0322" name="Benvenuto" />
+  <day key="0322" name="Caterina" />
+  <day key="0322" name="Lavinia" />
+  <day key="0322" name="Nilde" />
+  <day key="0322" name="Nilda" />
+  <day key="0322" name="Muzio" />
+  <day key="0322" name="Onofrio" />
+  <day key="0323" name="S. Turibio di Mogrovejo" />
+  <day key="0323" name="Fedele" />
+  <day key="0323" name="Nora" />
+  <day key="0324" name="S. Romolo" />
+  <day key="0324" name="Gabriele" />
+  <day key="0324" name="Attilio" />
+  <day key="0324" name="Didaco" />
+  <day key="0324" name="Tiberio" />
+  <day key="0325" name="Annunciazione del Signore" />
+  <day key="0325" name="Annunziata" />
+  <day key="0325" name="Nunzia" />
+  <day key="0325" name="Nunzio" />
+  <day key="0326" name="S. Teodoro" />
+  <day key="0326" name="S. Romolo" />
+  <day key="0326" name="S. Emanuele" />
+  <day key="0326" name="Eginardo" />
+  <day key="0326" name="Manuel" />
+  <day key="0326" name="Quadrato" />
+  <day key="0327" name="S. Augusto" />
+  <day key="0327" name="Ruperto" />
+  <day key="0327" name="Romolo" />
+  <day key="0327" name="Oliviero" />
+  <day key="0328" name="S. Sisto III Papa" />
+  <day key="0329" name="S. Secondo martire" />
+  <day key="0330" name="S. Amedeo" />
+  <day key="0331" name="S. Beniamino martire" />
+  <day key="0401" name="S. Ugo vescovo" />
+  <day key="0401" name="Dora" />
+  <day key="0401" name="Irene e Doriana" />
+  <day key="0402" name="S. Francesco di Paola" />
+  <day key="0402" name="Isotta" />
+  <day key="0402" name="Emilia" />
+  <day key="0402" name="Grazia" />
+  <day key="0402" name="Graziella" />
+  <day key="0402" name="Selene" />
+  <day key="0402" name="Ginevra" />
+  <day key="0402" name="Selenio" />
+  <day key="0402" name="Regina" />
+  <day key="0403" name="S. Riccardo vescovo" />
+  <day key="0403" name="Sisto" />
+  <day key="0404" name="S. Isidoro vescovo" />
+  <day key="0404" name="Isabelle" />
+  <day key="0404" name="Isidora" />
+  <day key="0405" name="S. Vincenzo Ferrer" />
+  <day key="0405" name="Eva" />
+  <day key="0405" name="Cenzo" />
+  <day key="0405" name="Geraldo" />
+  <day key="0406" name="S. Guglielmo" />
+  <day key="0406" name="S. Diogene" />
+  <day key="0406" name="Celestina" />
+  <day key="0406" name="Filarete" />
+  <day key="0407" name="S. Ermanno" />
+  <day key="0407" name="Giovanni Battista" />
+  <day key="0407" name="Cristiano" />
+  <day key="0408" name="S. Alberto Dionigi" />
+  <day key="0408" name="S. Walter" />
+  <day key="0409" name="S. Maria Cleofe" />
+  <day key="0409" name="Hilda" />
+  <day key="0409" name="Tancredi" />
+  <day key="0410" name="S. Terenzio martire" />
+  <day key="0411" name="S. Stanislao vescovo" />
+  <day key="0411" name="Gemma" />
+  <day key="0411" name="Isacco" />
+  <day key="0412" name="S. Giulio papa" />
+  <day key="0412" name="Zenone" />
+  <day key="0413" name="S. Martino papa" />
+  <day key="0413" name="Ermenegildo" />
+  <day key="0414" name="S. Abbondio" />
+  <day key="0414" name="Ignazio" />
+  <day key="0414" name="Lamberto" />
+  <day key="0415" name="S. Annibale" />
+  <day key="0415" name="Anastasio" />
+  <day key="0416" name="S. Lamberto" />
+  <day key="0416" name="Bernadette" />
+  <day key="0416" name="Grazia" />
+  <day key="0416" name="Giuditta" />
+  <day key="0417" name="S. Aniceto papa" />
+  <day key="0417" name="Arcangelo" />
+  <day key="0417" name="Rodolfo" />
+  <day key="0418" name="S. Galdino vescovo" />
+  <day key="0419" name="S. Ermogene martire" />
+  <day key="0419" name="Espedito" />
+  <day key="0419" name="Emma" />
+  <day key="0420" name="S. Adalgisa vergine" />
+  <day key="0420" name="Odette" />
+  <day key="0421" name="S. Anselmo" />
+  <day key="0421" name="S. Silvio" />
+  <day key="0421" name="Corrado" />
+  <day key="0422" name="S. Caio" />
+  <day key="0422" name="Sotero" />
+  <day key="0422" name="Leonida" />
+  <day key="0423" name="S. Giorgio martire" />
+  <day key="0424" name="S. Fedele" />
+  <day key="0424" name="S. Gastone" />
+  <day key="0425" name="S. Marco evangelista" />
+  <day key="0425" name="Franco" />
+  <day key="0426" name="S. Cleto" />
+  <day key="0426" name="S. Marcellino martire" />
+  <day key="0426" name="Alida" />
+  <day key="0426" name="Bianca" />
+  <day key="0427" name="S. Zita" />
+  <day key="0428" name="S. Valeria" />
+  <day key="0428" name="S. Pietro Chanel" />
+  <day key="0428" name="Manlio" />
+  <day key="0429" name="S. Caterina da Siena" />
+  <day key="0429" name="Antonia" />
+  <day key="0429" name="Karen" />
+  <day key="0429" name="Gomberto" />
+  <day key="0430" name="S. Pio V papa" />
+  <day key="0430" name="S. Mariano" />
+  <day key="0430" name="Lodovico" />
+  <day key="0430" name="Sofia" />
+  <day key="0430" name="Sonia" />
+  <day key="0430" name="Rosamunda" />
+  <day key="0501" name="San Giuseppe artigiano" />
+  <day key="0501" name="Brunella" />
+  <day key="0502" name="S. Cesare" />
+  <day key="0502" name="S. Atanasio" />
+  <day key="0502" name="Flaminio" />
+  <day key="0502" name="Zoe" />
+  <day key="0502" name="Celeste" />
+  <day key="0503" name="S. Filippo" />
+  <day key="0503" name="S. Giacomo" />
+  <day key="0503" name="Alessandro" />
+  <day key="0503" name="Viola" />
+  <day key="0504" name="SS. Silvano e Nereo" />
+  <day key="0504" name="S. Porfirio prete" />
+  <day key="0504" name="Ada" />
+  <day key="0504" name="Floriano" />
+  <day key="0504" name="Tiziano" />
+  <day key="0505" name="S. Pellegrino martire" />
+  <day key="0505" name="Angelo" />
+  <day key="0505" name="Penelope" />
+  <day key="0505" name="Tosca" />
+  <day key="0505" name="Teodoro" />
+  <day key="0505" name="Leo" />
+  <day key="0505" name="Pio" />
+  <day key="0506" name="S. Giuditta martire" />
+  <day key="0506" name="Violante" />
+  <day key="0507" name="S. Flavia" />
+  <day key="0507" name="S. Fulvio" />
+  <day key="0507" name="Augusto" />
+  <day key="0507" name="Gisella" />
+  <day key="0507" name="Virginia" />
+  <day key="0507" name="Stanislao" />
+  <day key="0507" name="Villano" />
+  <day key="0508" name="S. Desiderato" />
+  <day key="0508" name="S. Vittore martire" />
+  <day key="0508" name="Geronzio" />
+  <day key="0508" name="Egle" />
+  <day key="0509" name="S. Gregorio vescovo" />
+  <day key="0509" name="S. Duilio" />
+  <day key="0509" name="Luminosa" />
+  <day key="0510" name="S. Antonino" />
+  <day key="0510" name="S. Cataldo" />
+  <day key="0510" name="Alfio" />
+  <day key="0510" name="Miro" />
+  <day key="0510" name="Quarto" />
+  <day key="0511" name="S. Fabio martire" />
+  <day key="0511" name="Stella" />
+  <day key="0511" name="Achille" />
+  <day key="0511" name="Fiorenzo" />
+  <day key="0512" name="S. Rossana" />
+  <day key="0512" name="Nereo" />
+  <day key="0512" name="Pancrazio" />
+  <day key="0512" name="Imelde" />
+  <day key="0512" name="Domitilla" />
+  <day key="0513" name="S. Emma" />
+  <day key="0513" name="Roberto" />
+  <day key="0514" name="S. Mattia Apostolo" />
+  <day key="0514" name="Corinna" />
+  <day key="0514" name="Gemma" />
+  <day key="0514" name="Bonifacio" />
+  <day key="0515" name="S. Torquato" />
+  <day key="0515" name="S. Achille" />
+  <day key="0515" name="Germana" />
+  <day key="0516" name="S. Ubaldo vescovo" />
+  <day key="0516" name="Margherita" />
+  <day key="0516" name="Tiziano" />
+  <day key="0516" name="Oderzo" />
+  <day key="0516" name="Adamo" />
+  <day key="0517" name="S. Pasquale Baylon" />
+  <day key="0518" name="S. Giovanni I papa" />
+  <day key="0518" name="Erico" />
+  <day key="0518" name="Enrico" />
+  <day key="0518" name="Veneziano" />
+  <day key="0518" name="Venanzio" />
+  <day key="0518" name="Luciano" />
+  <day key="0519" name="S. Pietro di Morrone" />
+  <day key="0519" name="Ivo" />
+  <day key="0519" name="Ivonne" />
+  <day key="0519" name="Ivette" />
+  <day key="0520" name="S. Bernardino da Siena sacerdote" />
+  <day key="0520" name="Anastasio" />
+  <day key="0521" name="S. Vittorio martire" />
+  <day key="0521" name="Giulia" />
+  <day key="0521" name="Angelo" />
+  <day key="0522" name="S. Rita da Cascia" />
+  <day key="0522" name="Valente" />
+  <day key="0523" name="S. Desiderio vescovo" />
+  <day key="0524" name="Amalia" />
+  <day key="0525" name="S. Beda il Venerabile" />
+  <day key="0525" name="S. Erminio" />
+  <day key="0525" name="Gregorio" />
+  <day key="0525" name="Adelmo" />
+  <day key="0526" name="S. Filippo Neri" />
+  <day key="0527" name="S. Agostino" />
+  <day key="0527" name="Federico" />
+  <day key="0527" name="Oliviero" />
+  <day key="0528" name="S. Emilio martire" />
+  <day key="0528" name="S. Ercole" />
+  <day key="0528" name="Priamo" />
+  <day key="0529" name="S. Massimino vescovo" />
+  <day key="0529" name="Massimo" />
+  <day key="0529" name="Ademaro" />
+  <day key="0530" name="S. Felice I papa" />
+  <day key="0530" name="S. Ferdinando" />
+  <day key="0530" name="Giovanni" />
+  <day key="0531" name="Angela" />
+  <day key="0531" name="Giovanna d'Arco" />
+  <day key="0531" name="Petronilla" />
+  <day key="0601" name="S. Giustino martire" />
+  <day key="0601" name="Lia" />
+  <day key="0601" name="Graziano" />
+  <day key="0602" name="S. Marcellino" />
+  <day key="0602" name="Emilia" />
+  <day key="0602" name="Erasmo" />
+  <day key="0602" name="Elmo" />
+  <day key="0602" name="Floriano" />
+  <day key="0602" name="Fosco" />
+  <day key="0603" name="S. Carlo Lwanga" />
+  <day key="0603" name="Clotilde" />
+  <day key="0603" name="Olivia" />
+  <day key="0603" name="Olivana" />
+  <day key="0603" name="Oliviana" />
+  <day key="0603" name="Oliviera" />
+  <day key="0603" name="Olivera" />
+  <day key="0603" name="Viera" />
+  <day key="0603" name="Ovidio" />
+  <day key="0604" name="S. Quirino vescovo" />
+  <day key="0604" name="Isabella" />
+  <day key="0604" name="Querino" />
+  <day key="0605" name="S. Bonifacio vescovo" />
+  <day key="0605" name="Ferdinando" />
+  <day key="0605" name="Igor" />
+  <day key="0605" name="Volfango" />
+  <day key="0606" name="S. Norberto vescovo" />
+  <day key="0606" name="Paola" />
+  <day key="0606" name="Paula" />
+  <day key="0606" name="Paulina" />
+  <day key="0606" name="Paoletta" />
+  <day key="0607" name="S. Roberto vescovo" />
+  <day key="0607" name="Sabiniano" />
+  <day key="0607" name="Geremia" />
+  <day key="0607" name="Landolfo" />
+  <day key="0608" name="S. Medardo vescovo" />
+  <day key="0609" name="S. Primo" />
+  <day key="0609" name="S. Efrem" />
+  <day key="0610" name="S. Diana" />
+  <day key="0610" name="S. Marcella" />
+  <day key="0610" name="Greta" />
+  <day key="0610" name="Asterio" />
+  <day key="0611" name="S. Barnaba apostolo" />
+  <day key="0612" name="S. Guido" />
+  <day key="0612" name="S. Onofrio" />
+  <day key="0612" name="Basilide" />
+  <day key="0613" name="S. Antonio da Padova" />
+  <day key="0613" name="Alice" />
+  <day key="0614" name="S. Eliseo" />
+  <day key="0614" name="Valerio" />
+  <day key="0615" name="S. Germana" />
+  <day key="0615" name="S. Vito" />
+  <day key="0615" name="Enrica" />
+  <day key="0615" name="Everardo" />
+  <day key="0616" name="S. Aureliano" />
+  <day key="0616" name="Giuditta" />
+  <day key="0616" name="Ferruccio" />
+  <day key="0617" name="S. Gregorio Barbarigo" />
+  <day key="0617" name="S. Adolfo" />
+  <day key="0617" name="Manuele" />
+  <day key="0618" name="S. Marina" />
+  <day key="0618" name="Marinella" />
+  <day key="0618" name="Marinetta" />
+  <day key="0619" name="S. Gervasio" />
+  <day key="0619" name="S. Romualdo abate" />
+  <day key="0620" name="S. Silverio papa" />
+  <day key="0620" name="S. Ettore" />
+  <day key="0620" name="Consolata" />
+  <day key="0621" name="S. Luigi Gonzaga" />
+  <day key="0621" name="Luisa" />
+  <day key="0621" name="Raul" />
+  <day key="0621" name="Marzia" />
+  <day key="0621" name="Marzina" />
+  <day key="0621" name="Marzialina" />
+  <day key="0621" name="Marziana" />
+  <day key="0622" name="S. Paolino da Nola" />
+  <day key="0622" name="Flavio" />
+  <day key="0623" name="S. Lanfranco vescovo" />
+  <day key="0623" name="Alice" />
+  <day key="0624" name="Nativita S. Giovanni Battista" />
+  <day key="0624" name="Romolo" />
+  <day key="0624" name="Gabriele" />
+  <day key="0624" name="Zaira" />
+  <day key="0624" name="Vanni" />
+  <day key="0625" name="S. Guglielmo abate" />
+  <day key="0625" name="Orio" />
+  <day key="0625" name="Oriella" />
+  <day key="0625" name="Orietta" />
+  <day key="0625" name="Oride" />
+  <day key="0625" name="Oriano" />
+  <day key="0625" name="Prospero" />
+  <day key="0626" name="S. Vigilio vescovo" />
+  <day key="0626" name="Rodolfo" />
+  <day key="0626" name="Elisa" />
+  <day key="0626" name="Filippo" />
+  <day key="0627" name="S. Cirillo D'Alessandria vescovo e dottore" />
+  <day key="0627" name="Lelio" />
+  <day key="0627" name="Tosco" />
+  <day key="0628" name="S. Attilio" />
+  <day key="0628" name="Ireneo" />
+  <day key="0629" name="SS. Pietro e Paolo" />
+  <day key="0629" name="Piero" />
+  <day key="0630" name="SS. Primi Martiri" />
+  <day key="0701" name="S. Teobaldo sacerdote eremita" />
+  <day key="0701" name="Ester" />
+  <day key="0701" name="Carolina" />
+  <day key="0702" name="S. Ottone" />
+  <day key="0703" name="S. Tommaso apostolo" />
+  <day key="0703" name="Leone" />
+  <day key="0704" name="S. Elisabetta" />
+  <day key="0704" name="S. Rossella" />
+  <day key="0704" name="Cristina" />
+  <day key="0705" name="S. Antonio Maria Zaccaria sacerdote" />
+  <day key="0706" name="S. Maria Goretti" />
+  <day key="0706" name="Romola" />
+  <day key="0707" name="S. Edda" />
+  <day key="0707" name="S. Claudio" />
+  <day key="0707" name="Apollino" />
+  <day key="0708" name="S. Adriano" />
+  <day key="0708" name="S. Priscilla" />
+  <day key="0708" name="Elisabetta" />
+  <day key="0709" name="S. Armando" />
+  <day key="0709" name="S. Letizia" />
+  <day key="0709" name="Clelia" />
+  <day key="0709" name="Bianca" />
+  <day key="0709" name="Veronica" />
+  <day key="0710" name="S. Felicita" />
+  <day key="0710" name="S. Silvana" />
+  <day key="0710" name="Rufina" />
+  <day key="0710" name="Seconda" />
+  <day key="0711" name="S. Benedetto" />
+  <day key="0711" name="S. Olga" />
+  <day key="0711" name="S. Fabrizio" />
+  <day key="0711" name="Emanuele" />
+  <day key="0712" name="S. Fortunato martire" />
+  <day key="0713" name="S. Enrico imperatore" />
+  <day key="0714" name="S. Camillo de Lellis" />
+  <day key="0715" name="S. Bonaventura" />
+  <day key="0715" name="Vladimiro" />
+  <day key="0715" name="Giacobbe" />
+  <day key="0716" name="Elvira" />
+  <day key="0716" name="Carmen" />
+  <day key="0717" name="S. Alessio di Roma" />
+  <day key="0717" name="Tiziano" />
+  <day key="0718" name="S. Calogero" />
+  <day key="0718" name="S. Federico V." />
+  <day key="0719" name="S. Giusta" />
+  <day key="0719" name="S. Simmaco" />
+  <day key="0720" name="S. Elia profeta" />
+  <day key="0720" name="Severina" />
+  <day key="0720" name="Severa" />
+  <day key="0721" name="S. Lorenzo da Brindisi sacerdote e dottore" />
+  <day key="0721" name="Cesira" />
+  <day key="0721" name="Daniele" />
+  <day key="0722" name="S. Maria Maddalena" />
+  <day key="0722" name="Lena" />
+  <day key="0723" name="S. Brigida" />
+  <day key="0724" name="S. Cristina" />
+  <day key="0724" name="Anita" />
+  <day key="0725" name="S. Giacomo apostolo" />
+  <day key="0725" name="Tea" />
+  <day key="0725" name="Ivo" />
+  <day key="0725" name="Ivonne" />
+  <day key="0725" name="Ivette" />
+  <day key="0725" name="Cristoforo" />
+  <day key="0726" name="SS. Anna e Gioacchino" />
+  <day key="0726" name="Camilla" />
+  <day key="0726" name="Rosanna" />
+  <day key="0727" name="S. Liliana" />
+  <day key="0727" name="S. Aurelio" />
+  <day key="0727" name="Asja" />
+  <day key="0727" name="Natalia" />
+  <day key="0727" name="Natalina" />
+  <day key="0727" name="Natascia" />
+  <day key="0727" name="Celeste" />
+  <day key="0728" name="S. Nazario" />
+  <day key="0728" name="S. Innocenzo" />
+  <day key="0729" name="S. Marta" />
+  <day key="0729" name="Beatrice" />
+  <day key="0729" name="Lucilla" />
+  <day key="0730" name="S. Pietro Crisologo vescovo" />
+  <day key="0730" name="Donatella" />
+  <day key="0731" name="S. Ignazio di Loyola" />
+  <day key="0731" name="Fabio" />
+  <day key="0801" name="S. Alfonso" />
+  <day key="0802" name="S. Eusebio" />
+  <day key="0802" name="S. Gustavo" />
+  <day key="0803" name="S. Lidia" />
+  <day key="0804" name="S. Nicodemo" />
+  <day key="0804" name="S. Giovanni Maria Vianney sacerdote" />
+  <day key="0805" name="S. Osvaldo" />
+  <day key="0805" name="Neve" />
+  <day key="0805" name="Nevi" />
+  <day key="0805" name="Neva" />
+  <day key="0807" name="S. Gaetano da Thiene" />
+  <day key="0807" name="Mafalda" />
+  <day key="0808" name="S. Domenico" />
+  <day key="0808" name="Emiliano" />
+  <day key="0809" name="S. Romano" />
+  <day key="0809" name="S. Fermo" />
+  <day key="0809" name="Livio" />
+  <day key="0810" name="S. Lorenzo martire" />
+  <day key="0810" name="Renzo" />
+  <day key="0811" name="S. Chiara" />
+  <day key="0811" name="Susanna" />
+  <day key="0811" name="Lelia" />
+  <day key="0812" name="S. Giuliano" />
+  <day key="0813" name="S. Ippolito" />
+  <day key="0813" name="S. Ponziano" />
+  <day key="0814" name="S. Alfredo" />
+  <day key="0815" name="Assunta" />
+  <day key="0816" name="S. Stefano" />
+  <day key="0816" name="S. Rocco" />
+  <day key="0816" name="Serena" />
+  <day key="0816" name="Gioacchino" />
+  <day key="0817" name="S. Giacinto" />
+  <day key="0817" name="Carlo" />
+  <day key="0818" name="S. Elena" />
+  <day key="0818" name="Augusta" />
+  <day key="0818" name="Lauro" />
+  <day key="0818" name="Tatiana" />
+  <day key="0819" name="S. Ludovico" />
+  <day key="0819" name="S. Italo" />
+  <day key="0820" name="S. Bernardo abate" />
+  <day key="0820" name="Samuele" />
+  <day key="0821" name="S. Pio X papa" />
+  <day key="0822" name="S. Maria regina" />
+  <day key="0822" name="Ippolito" />
+  <day key="0823" name="S. Rosa da Lima" />
+  <day key="0823" name="S. Manlio" />
+  <day key="0824" name="S. Bartolomeo apostolo" />
+  <day key="0824" name="Michela" />
+  <day key="0824" name="Dario" />
+  <day key="0825" name="S. Ludovico" />
+  <day key="0825" name="Luigi" />
+  <day key="0825" name="Erminia" />
+  <day key="0825" name="Patrizia" />
+  <day key="0826" name="S. Alessandro martire" />
+  <day key="0827" name="S. Monica" />
+  <day key="0827" name="S. Anita" />
+  <day key="0828" name="S. Agostino" />
+  <day key="0829" name="Martirio S." />
+  <day key="0829" name="Giovanni B." />
+  <day key="0829" name="Sabina" />
+  <day key="0829" name="Savino" />
+  <day key="0830" name="S. Faustina" />
+  <day key="0830" name="S. Tecla" />
+  <day key="0830" name="Rosa" />
+  <day key="0831" name="S. Aristide martire" />
+  <day key="0831" name="Aidano" />
+  <day key="0831" name="Aida" />
+  <day key="0901" name="S. Egidio abate" />
+  <day key="0902" name="S. Elpidio vescovo" />
+  <day key="0902" name="Ingrid" />
+  <day key="0903" name="S. Gregorio martire" />
+  <day key="0903" name="S. Marino" />
+  <day key="0904" name="S. Rosalia" />
+  <day key="0904" name="Rosa" />
+  <day key="0905" name="S. Vittorino vescovo" />
+  <day key="0905" name="Giordano" />
+  <day key="0906" name="S. Petronio" />
+  <day key="0906" name="S. Umberto" />
+  <day key="0906" name="Eva" />
+  <day key="0907" name="S. Regina" />
+  <day key="0907" name="Guido" />
+  <day key="0908" name="Vergine Maria" />
+  <day key="0909" name="S. Sergio papa" />
+  <day key="0910" name="S. Nicola da Tol." />
+  <day key="0910" name="S. Pulcheria" />
+  <day key="0910" name="Candida" />
+  <day key="0911" name="S. Diomede martire" />
+  <day key="0912" name="SS Nome di Maria" />
+  <day key="0912" name="S. Guido" />
+  <day key="0913" name="S. Maurilio" />
+  <day key="0913" name="S. Giovanni Cris." />
+  <day key="0915" name="Beata Vergine Maria Addolorata" />
+  <day key="0916" name="SS. Cornelio e Cipriano" />
+  <day key="0916" name="Edoardo" />
+  <day key="0917" name="S. Roberto Bellarmino" />
+  <day key="0918" name="S. Sofia martire" />
+  <day key="0919" name="S. Gennaro vescovo" />
+  <day key="0919" name="Costanzo" />
+  <day key="0920" name="S. Eustachio" />
+  <day key="0920" name="S. Candida" />
+  <day key="0921" name="S. Matteo apostolo" />
+  <day key="0922" name="S. Maurizio martire" />
+  <day key="0922" name="Silvano" />
+  <day key="0922" name="Tazio" />
+  <day key="0923" name="S. Lino papa" />
+  <day key="0923" name="Libero" />
+  <day key="0923" name="Rebecca" />
+  <day key="0924" name="S. Pacifico da Sanseverino Marche" />
+  <day key="0925" name="S. Aurelia" />
+  <day key="0925" name="Sergio" />
+  <day key="0926" name="SS. Cosimo e Damiano" />
+  <day key="0927" name="S. Vincenzo de' Paoli" />
+  <day key="0928" name="S. Venceslao martire" />
+  <day key="0929" name="SS. Michele" />
+  <day key="0929" name="Gabriele e Raffaele" />
+  <day key="0930" name="S. Girolamo dottore" />
+  <day key="0930" name="Rachele" />
+  <day key="0930" name="Sofia" />
+  <day key="0930" name="Sonia" />
+  <day key="1001" name="S. Teresa del Bambin Gesu" />
+  <day key="1002" name="SS. Angeli Custodi" />
+  <day key="1003" name="S. Gerardo abate" />
+  <day key="1004" name="S. Francesco d'Assisi" />
+  <day key="1005" name="S. Placido martire" />
+  <day key="1006" name="S. Bruno abate" />
+  <day key="1006" name="Alberta" />
+  <day key="1007" name="Beata Vergine Maria del Rosario" />
+  <day key="1008" name="S. Pelagia" />
+  <day key="1008" name="Brigida" />
+  <day key="1008" name="Ivano" />
+  <day key="1009" name="S. Dionigi" />
+  <day key="1009" name="S. Ferruccio" />
+  <day key="1009" name="Sara" />
+  <day key="1009" name="Lorenzo" />
+  <day key="1010" name="S. Daniele vescovo missionario" />
+  <day key="1011" name="S. Firmino vescovo" />
+  <day key="1011" name="Bruno" />
+  <day key="1011" name="Emanuela" />
+  <day key="1012" name="S. Serafino da Montegranaro" />
+  <day key="1013" name="S. Edoardo re" />
+  <day key="1014" name="S. Callisto I papa" />
+  <day key="1014" name="Orlando" />
+  <day key="1014" name="Fortunato" />
+  <day key="1015" name="S. Teresa d'Avila" />
+  <day key="1015" name="Ruggero" />
+  <day key="1016" name="S. Edvige" />
+  <day key="1016" name="S. Margherita Alacoque del S.C." />
+  <day key="1017" name="S. Ignazio d'A." />
+  <day key="1017" name="S. Rodolfo" />
+  <day key="1017" name="Marisa" />
+  <day key="1017" name="Edda" />
+  <day key="1018" name="S. Luca evangelista" />
+  <day key="1019" name="S. Isacco martire" />
+  <day key="1019" name="S. Laura" />
+  <day key="1019" name="Lara" />
+  <day key="1020" name="S. Irene" />
+  <day key="1020" name="Aurora" />
+  <day key="1021" name="S. Orsola" />
+  <day key="1021" name="Clementina" />
+  <day key="1021" name="Letizia" />
+  <day key="1022" name="S. Donato vescovo" />
+  <day key="1022" name="Apollo" />
+  <day key="1023" name="S. Giovanni da Capestrano sacerdote" />
+  <day key="1024" name="S. Antonio Maria Claret vescovo" />
+  <day key="1024" name="Luigi" />
+  <day key="1025" name="S. Crispino" />
+  <day key="1025" name="S. Daria" />
+  <day key="1025" name="Gaudenzio" />
+  <day key="1026" name="S. Evaristo papa" />
+  <day key="1027" name="S. Fiorenzo vescovo" />
+  <day key="1027" name="Delia" />
+  <day key="1028" name="S. Simone" />
+  <day key="1028" name="Simeone" />
+  <day key="1028" name="Simonetta" />
+  <day key="1028" name="Giuda" />
+  <day key="1029" name="S. Ermelinda" />
+  <day key="1029" name="S. Massimiliano" />
+  <day key="1029" name="Michela" />
+  <day key="1030" name="S. Germano vescovo" />
+  <day key="1030" name="Benvenuta" />
+  <day key="1031" name="S. Lucilla" />
+  <day key="1031" name="S. Quintino" />
+  <day key="1101" name="Tutti i santi" />
+  <day key="1102" name="Tobia beato" />
+  <day key="1103" name="S. Martino" />
+  <day key="1103" name="S. Silvia" />
+  <day key="1103" name="Giusto" />
+  <day key="1104" name="S. Carlo Borromeo" />
+  <day key="1104" name="Rosalia" />
+  <day key="1105" name="S. Zaccaria profeta" />
+  <day key="1106" name="S. Leonardo abate" />
+  <day key="1107" name="S. Ernesto abate" />
+  <day key="1107" name="Carina" />
+  <day key="1108" name="S. Goffredo vescovo" />
+  <day key="1109" name="S. Oreste" />
+  <day key="1109" name="S. Ornella" />
+  <day key="1109" name="Fausto" />
+  <day key="1110" name="S. Leone Magno" />
+  <day key="1110" name="Fiorenzio" />
+  <day key="1111" name="S. Martino di Tours" />
+  <day key="1112" name="S. Renato martire" />
+  <day key="1112" name="S. Elsa" />
+  <day key="1112" name="Cristiano" />
+  <day key="1113" name="S. Diego" />
+  <day key="1113" name="S. Omobono" />
+  <day key="1114" name="S. Giocondo vescovo" />
+  <day key="1115" name="S. Alberto M." />
+  <day key="1115" name="S. Arturo" />
+  <day key="1116" name="S. Margherita di Scozia" />
+  <day key="1116" name="Edmondo" />
+  <day key="1117" name="S. Elisabetta" />
+  <day key="1117" name="Elda" />
+  <day key="1118" name="S. Oddone abate" />
+  <day key="1118" name="Alda" />
+  <day key="1119" name="S. Fausto martire" />
+  <day key="1120" name="S. Benigno" />
+  <day key="1121" name="Presentazione Beata Vergine Maria" />
+  <day key="1122" name="S. Cecilia martire di Roma" />
+  <day key="1123" name="S. Clemente papa" />
+  <day key="1123" name="Felicia" />
+  <day key="1123" name="Lucrezia" />
+  <day key="1124" name="Cristo re e S. Flora" />
+  <day key="1125" name="S. Caterina d'Alessandria vergine e martire" />
+  <day key="1126" name="S. Corrado vescovo" />
+  <day key="1127" name="S. Massimo" />
+  <day key="1127" name="S. Virgilio" />
+  <day key="1128" name="S. Giacomo della Marca" />
+  <day key="1129" name="S. Saturnino martire" />
+  <day key="1130" name="S. Andrea apostolo" />
+  <day key="1130" name="S. Duccio" />
+  <day key="1201" name="S. Ansano" />
+  <day key="1201" name="Natalia" />
+  <day key="1201" name="Mariano" />
+  <day key="1202" name="S. Bibiana" />
+  <day key="1202" name="S. Savino" />
+  <day key="1202" name="Viviana" />
+  <day key="1203" name="S. Francesco Saverio" />
+  <day key="1203" name="Ilaria" />
+  <day key="1204" name="S. Barbara" />
+  <day key="1204" name="S. Giovanni Damasceno" />
+  <day key="1204" name="Isa" />
+  <day key="1205" name="S. Giulio martire" />
+  <day key="1206" name="S. Nicola vescovo" />
+  <day key="1207" name="S. Ambrogio vescovo" />
+  <day key="1208" name="Immacolata" />
+  <day key="1208" name="Concetta" />
+  <day key="1208" name="Lorenza" />
+  <day key="1209" name="S. Siro" />
+  <day key="1209" name="Sirio" />
+  <day key="1209" name="Cesare" />
+  <day key="1210" name="Beata Vergine Maria di Loreto" />
+  <day key="1210" name="Lorena" />
+  <day key="1210" name="Loredana" />
+  <day key="1211" name="S. Damaso papa" />
+  <day key="1212" name="S. Giovanna Francesca Frémyot di Chantal" />
+  <day key="1213" name="S. Lucia vergine e martire" />
+  <day key="1214" name="S. Giovanni della Croce" />
+  <day key="1214" name="S. Pompeo" />
+  <day key="1215" name="S. Valeriano" />
+  <day key="1215" name="Nino" />
+  <day key="1216" name="S. Albina" />
+  <day key="1217" name="S. Lazzaro" />
+  <day key="1217" name="Olimpia" />
+  <day key="1218" name="S. Graziano vescovo" />
+  <day key="1219" name="S. Fausta" />
+  <day key="1219" name="S. Dario" />
+  <day key="1220" name="S. Liberato martire" />
+  <day key="1221" name="S. Pietro Canisio" />
+  <day key="1222" name="S. Francesca Cabrini" />
+  <day key="1223" name="S. Giovanni da Kety (Canzio)" />
+  <day key="1223" name="S. Vittoria" />
+  <day key="1224" name="S. Delfino" />
+  <day key="1224" name="Irma" />
+  <day key="1224" name="Adele" />
+  <day key="1225" name="Natale" />
+  <day key="1225" name="Christel" />
+  <day key="1226" name="S. Stefano protomartire" />
+  <day key="1227" name="S. Giovanni evangelista" />
+  <day key="1227" name="Fabiola" />
+  <day key="1228" name="SS. Innocenti Martiri" />
+  <day key="1228" name="Dorma" />
+  <day key="1228" name="Donna" />
+  <day key="1229" name="S. Tommaso Becket" />
+  <day key="1229" name="Pietro" />
+  <day key="1229" name="Davide" />
+  <day key="1230" name="S. Eugenio vescovo" />
+  <day key="1230" name="S. Ruggero" />
+  <day key="1231" name="S. Silvestro papa" />
+  <day key="1231" name="Fiore" />
+  <day key="1231" name="Melania" />
+ </namedays>
+
+
+</calendarmd>

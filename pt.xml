@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- http://en.wikipedia.org/wiki/Public_holidays_in_Portugal -->
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Segunda-feira" />
+  <day id="2" name="Terça-feira" />
+  <day id="3" name="Quarta-feira" />
+  <day id="4" name="Quinta-feira" />
+  <day id="5" name="Sexta-feira" />
+  <day id="6" name="Sábado" />
+  <day id="7" name="Domingo" />
+ </days>
+
+ <months>
+  <month id="1" name="Janeiro" />
+  <month id="2" name="Fevereiro" />
+  <month id="3" name="Março" />
+  <month id="4" name="Abril" />
+  <month id="5" name="Maio" />
+  <month id="6" name="Junho" />
+  <month id="7" name="Julho" />
+  <month id="8" name="Agôsto" />
+  <month id="9" name="Setembro" />
+  <month id="10" name="Outubro" />
+  <month id="11" name="Novembro" />
+  <month id="12" name="Dezembro" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Ano Novo" />
+  <day key="EACA" name="Carnaval" method="GetCarnival" metadata="" multi="0" />
+  <day key="GOODF" name="Sexta-feira Santa" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EASU" name="Páscoa" method="GetEasterSunday" metadata="" multi="0" />
+  <day key="0425" name="Dia da Liberdade" />
+  <day key="0501" name="Dia do Trabalhador" />
+  <day key="EASU60" name="Corpo de Deus" method="GetCorpusChristi" metadata="" multi="0" />
+  <day key="0610" name="Dia de Portugal, de Camões e das Comunidades Portuguesas" />
+  <day key="0815" name="Assunção de Nossa Senhora" />
+  <day key="1005" name="Implantação da República" />
+  <day key="1101" name="Todos os Santos" />
+  <day key="1201" name="Restauração da Independência" />
+  <day key="1208" name="Imaculada Conceição" />
+  <day key="1225" name="Natal" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0601" name="Dia dos Açores" />
+  <day key="0701" name="Dia da Madeira" />
+ </significantdays>
+
+ <namedays priority="0">
+ </namedays>
+
+
+</calendarmd>

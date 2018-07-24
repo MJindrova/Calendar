@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Montag" />
+  <day id="2" name="Dienstag" />
+  <day id="3" name="Mittwoch" />
+  <day id="4" name="Donnerstag" />
+  <day id="5" name="Freitag" />
+  <day id="6" name="Samstag" />
+  <day id="7" name="Sonntag" />
+ </days>
+
+ <months>
+  <month id="1" name="Januar" />
+  <month id="2" name="Februar" />
+  <month id="3" name="März" />
+  <month id="4" name="April" />
+  <month id="5" name="Mai" />
+  <month id="6" name="Juni" />
+  <month id="7" name="Juli" />
+  <month id="8" name="August" />
+  <month id="9" name="September" />
+  <month id="10" name="Oktober" />
+  <month id="11" name="November" />
+  <month id="12" name="Dezember" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Neujahr" method="" metadata="" multi="0" />
+  <day key="GOODF" name="Ostern" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Ostermontag" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="Tag der Arbeit" method="" metadata="" multi="0" />
+  <day key="EASU39" name="Christi Himmelfahrt" method="GetAscensionDay" metadata="" multi="0" />
+  <day key="EASU49" name="Pfingsten" method="GetPentecost" metadata="" multi="0" />
+  <day key="EASU50" name="Pfingstmontag" method="GetWhitMonday" metadata="" multi="0" />
+  <day key="0721" name="Nationalfeiertag" method="" metadata="" multi="0" />
+  <day key="0815" name="Mariä Himmelfahrt" method="" metadata="" multi="0" />
+  <day key="1101" name="Allerheiligen" method="" metadata="" multi="0" />
+  <day key="1111" name="Waffenstillstand" method="" metadata="" multi="0" />
+  <day key="1226" name="Weihnacht" method="" metadata="" multi="0" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0106" name="Erscheinung des Herrn" method="" metadata="" multi="0" />
+  <day key="0214" name="Valentinstag" method="" metadata="" multi="0" />
+  <day key="1115" name="Festtag des Königs" method="" metadata="" multi="0" />
+  <day key="1115" name="Tag der Deutschsprachigen Gemeinschaft Belgiens" method="" metadata="" multi="0" />
+  <day key="1206" name="Sankt Nikolaus" method="" metadata="" multi="0" />
+ </significantdays>
+ 
+ <namedays priority="0">
+ </namedays>
+</calendarmd>

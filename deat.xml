@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Montag" />
+  <day id="2" name="Dienstag" />
+  <day id="3" name="Mittwoch" />
+  <day id="4" name="Donnerstag" />
+  <day id="5" name="Freitag" />
+  <day id="6" name="Samstag" />
+  <day id="7" name="Sonntag" />
+ </days>
+
+ <months>
+  <month id="1" name="Jänner" />
+  <month id="2" name="Februar" />
+  <month id="3" name="März" />
+  <month id="4" name="April" />
+  <month id="5" name="Mai" />
+  <month id="6" name="Juni" />
+  <month id="7" name="Juli" />
+  <month id="8" name="August" />
+  <month id="9" name="September" />
+  <month id="10" name="Oktober" />
+  <month id="11" name="November" />
+  <month id="12" name="Dezember" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Neujahr" />
+  <day key="0106" name="Heilige Drei Könige" />
+  <day key="GOODF" name="Karfreitag" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Ostermontag" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="Tag der Arbeit" />
+  <day key="EASU40" name="Christi Himmelfahrt" method="GetAscensionDay" metadata="" multi="0" />
+  <day key="EASU50" name="Pfingstmontag" method="GetWhitMonday" metadata="" multi="0" />
+  <day key="EASU60" name="Fronleichnam" method="GetCorpusChristi" metadata="" multi="0" />
+  <day key="0815" name="Mariä Himmelfahrt" />
+  <day key="1026" name="Nationalfeiertag" />
+  <day key="1101" name="Allerheiligen" />
+  <day key="1208" name="Mariä Empfängnis" />
+  <day key="1224" name="Heiliger Abend" />
+  <day key="1225" name="Weihnachtstag" />
+  <day key="1226" name="Zweiter Weihnachtsfeiertag" />
+  <day key="1231" name="Silvester " />
+ </hollydays>
+ 
+ <namedays priority="0">
+  <day key="0102" name="Basilius" />
+  <day key="0103" name="Genofeva" />
+  <day key="0104" name="Angela" />
+  <day key="0105" name="Emilie" />
+  <day key="0107" name="Raimund" />
+  <day key="0108" name="Severin" />
+  <day key="0109" name="Julian" />
+  <day key="0110" name="Wilhelm" />
+  <day key="0111" name="Tasso" />
+  <day key="0112" name="Taufe Jesu" />
+  <day key="0113" name="Hilarius" />
+  <day key="0114" name="Felix" />
+  <day key="0115" name="Arnold" />
+  <day key="0116" name="Marcellus" />
+  <day key="0117" name="Anton Eins." />
+  <day key="0118" name="Priska" />
+  <day key="0119" name="Marius" />
+  <day key="0120" name="Fab. u. Seb." />
+  <day key="0121" name="Agnes" />
+  <day key="0122" name="Vinzenz" />
+  <day key="0123" name="Heinrich" />
+  <day key="0124" name="Franz v. S." />
+  <day key="0125" name="Pauli Bek." />
+  <day key="0126" name="Tim u. Tit." />
+  <day key="0127" name="Angela" />
+  <day key="0128" name="Thomas" />
+  <day key="0129" name="Valerius" />
+  <day key="0130" name="Martina" />
+  <day key="0131" name="Joh. Bosco" />
+  <day key="0201" name="Brigitta" />
+  <day key="0202" name="Mariä Lichtm." />
+  <day key="0203" name="Blasius" />
+  <day key="0204" name="Andreas" />
+  <day key="0205" name="Agatha" />
+  <day key="0206" name="Dorothea" />
+  <day key="0207" name="Richard" />
+  <day key="0208" name="Joh. v. M." />
+  <day key="0209" name="Apollonia" />
+  <day key="0210" name="Scholastika" />
+  <day key="0211" name="Theodor" />
+  <day key="0212" name="Reginald" />
+  <day key="0213" name="Gerlinde" />
+  <day key="0214" name="Valentin" />
+  <day key="0215" name="Siegfried" />
+  <day key="0216" name="Juliana" />
+  <day key="0217" name="Silvinus" />
+  <day key="0218" name="Konstantia" />
+  <day key="0219" name="Hadwig" />
+  <day key="0220" name="Leo d.W." />
+  <day key="0221" name="Petrus D." />
+  <day key="0222" name="Petri Stuhlf." />
+  <day key="0223" name="Otto" />
+  <day key="0224" name="Matthias" />
+  <day key="0225" name="Walpurga" />
+  <day key="0226" name="Alexander" />
+  <day key="0227" name="Leander" />
+  <day key="0228" name="Roman" />
+  <day key="0301" name="Albin" />
+  <day key="0302" name="Karl" />
+  <day key="0303" name="Kunigunde" />
+  <day key="0304" name="Faschingd." />
+  <day key="0305" name="Aschermittw." />
+  <day key="0306" name="Fridolin" />
+  <day key="0307" name="Felicitas" />
+  <day key="0308" name="Joh. v. Gott" />
+  <day key="0309" name="Franziska" />
+  <day key="0310" name="Emil" />
+  <day key="0311" name="Theresia R." />
+  <day key="0312" name="Maximilian" />
+  <day key="0313" name="Roderich" />
+  <day key="0314" name="Mathilde" />
+  <day key="0315" name="Klemens" />
+  <day key="0316" name="Hilarius" />
+  <day key="0317" name="Gertrud" />
+  <day key="0318" name="Eduard" />
+  <day key="0319" name="Josef N." />
+  <day key="0320" name="Irmgard" />
+  <day key="0321" name="Alexandra" />
+  <day key="0322" name="Lea" />
+  <day key="0323" name="Otto v. A." />
+  <day key="0324" name="Matthias Ap." />
+  <day key="0325" name="Verk. d. H." />
+  <day key="0326" name="Ludger" />
+  <day key="0327" name="Frowin" />
+  <day key="0328" name="Johanna v. M." />
+  <day key="0329" name="Berthold" />
+  <day key="0330" name="Amadeus" />
+  <day key="0331" name="Cornelia	" />
+  <day key="0401" name="Hugo" />
+  <day key="0402" name="Franz v. P." />
+  <day key="0403" name="Richard" />
+  <day key="0404" name="Isidor" />
+  <day key="0405" name="Vinzenz" />
+  <day key="0406" name="Sixtus" />
+  <day key="0407" name="Johann Bapt." />
+  <day key="0408" name="Walter" />
+  <day key="0409" name="Waltraud" />
+  <day key="0410" name="Ezechiel" />
+  <day key="0411" name="Stanislaus" />
+  <day key="0412" name="Julius I." />
+  <day key="0413" name="Palmsonnt." />
+  <day key="0414" name="Valerian" />
+  <day key="0415" name="Waltmann" />
+  <day key="0416" name="Bernadette" />
+  <day key="0417" name="Gründonn." />
+  <day key="0418" name="Karfreitag" />
+  <day key="0419" name="Karsamstag" />
+  <day key="0420" name="Ostersonntag" />
+  <day key="0421" name="Ostermontag" />
+  <day key="0422" name="Wolfhelm" />
+  <day key="0423" name="Georg" />
+  <day key="0424" name="Helmut" />
+  <day key="0425" name="Markus Ev." />
+  <day key="0426" name="Trudpert" />
+  <day key="0427" name="Zita" />
+  <day key="0428" name="Pierre Ch." />
+  <day key="0429" name="Katharina" />
+  <day key="0430" name="Hildegard" />
+  <day key="0501" name="Staatsftg." />
+  <day key="0502" name="Athanasius" />
+  <day key="0503" name="Alexander" />
+  <day key="0504" name="Florian" />
+  <day key="0505" name="Gotthard" />
+  <day key="0506" name="Valerian" />
+  <day key="0507" name="Gisela" />
+  <day key="0508" name="Ida" />
+  <day key="0509" name="Volkmar" />
+  <day key="0510" name="Antonin" />
+  <day key="0511" name="Muttertag" />
+  <day key="0512" name="Pankratius" />
+  <day key="0513" name="Servatius" />
+  <day key="0514" name="Korona" />
+  <day key="0515" name="Sophie" />
+  <day key="0516" name="Joh. Nep." />
+  <day key="0517" name="Pasch." />
+  <day key="0518" name="Erich" />
+  <day key="0519" name="Cölestin" />
+  <day key="0520" name="Bernhardin" />
+  <day key="0521" name="Herm. Jos." />
+  <day key="0522" name="Rita" />
+  <day key="0523" name="Renate" />
+  <day key="0524" name="Vinzenz v. L." />
+  <day key="0525" name="Beda" />
+  <day key="0526" name="Philipp Neri" />
+  <day key="0527" name="Augustin" />
+  <day key="0528" name="Germanius" />
+  <day key="0529" name="Christi Hf." />
+  <day key="0530" name="Ferdinand" />
+  <day key="0531" name="Petronill" />
+  <day key="0601" name="Justin" />
+  <day key="0602" name="Erasmus" />
+  <day key="0603" name="Karl" />
+  <day key="0604" name="Klothilde" />
+  <day key="0605" name="Bonifaz" />
+  <day key="0606" name="Norbert" />
+  <day key="0607" name="Robert" />
+  <day key="0608" name="Pfingstsonnt." />
+  <day key="0609" name="Pfingstmont." />
+  <day key="0610" name="Heinrich" />
+  <day key="0611" name="Barnabas" />
+  <day key="0612" name="Joh. v. S. F." />
+  <day key="0613" name="Antonius" />
+  <day key="0614" name="Burkhard" />
+  <day key="0615" name="Veit" />
+  <day key="0616" name="Benno" />
+  <day key="0617" name="Adolf" />
+  <day key="0618" name="Markus" />
+  <day key="0619" name="Fronleichn." />
+  <day key="0620" name="Silverius" />
+  <day key="0621" name="Aloisius" />
+  <day key="0622" name="Paulinus" />
+  <day key="0623" name="Edeltraud" />
+  <day key="0624" name="Joh. d. T." />
+  <day key="0625" name="Wilhelm" />
+  <day key="0626" name="Joh. u. P." />
+  <day key="0627" name="Hemma" />
+  <day key="0628" name="Diethild" />
+  <day key="0629" name="Peter u. Paul" />
+  <day key="0630" name="Otto" />
+  <day key="0701" name="Theobald" />
+  <day key="0702" name="Maria H." />
+  <day key="0703" name="Thomas" />
+  <day key="0704" name="Ulrich" />
+  <day key="0705" name="Anton" />
+  <day key="0706" name="Maria G." />
+  <day key="0707" name="Willibald" />
+  <day key="0708" name="Kilian" />
+  <day key="0709" name="Gottfried" />
+  <day key="0710" name="Engelbert" />
+  <day key="0711" name="Benedikt" />
+  <day key="0712" name="N. u. F." />
+  <day key="0713" name="Heinrich" />
+  <day key="0714" name="Kamillus" />
+  <day key="0715" name="Bonavent." />
+  <day key="0716" name="Carmen" />
+  <day key="0717" name="Alexius" />
+  <day key="0718" name="Friedrich" />
+  <day key="0719" name="Justa" />
+  <day key="0720" name="Margareta" />
+  <day key="0721" name="Laurentius" />
+  <day key="0722" name="Mar. Magd." />
+  <day key="0723" name="Birgitta" />
+  <day key="0724" name="Chrstoph" />
+  <day key="0725" name="Jakob Ap." />
+  <day key="0726" name="A. u. J." />
+  <day key="0727" name="Rudolf" />
+  <day key="0728" name="Ada" />
+  <day key="0729" name="Martha" />
+  <day key="0730" name="Petr. Chrys." />
+  <day key="0731" name="Ignatius" />
+  <day key="0801" name="Alfons" />
+  <day key="0802" name="Eusebius" />
+  <day key="0803" name="Lydia" />
+  <day key="0804" name="Rainer" />
+  <day key="0805" name="Oswald" />
+  <day key="0806" name="Christi Verkl." />
+  <day key="0807" name="Kajetan" />
+  <day key="0808" name="Dominikus" />
+  <day key="0809" name="Altmann" />
+  <day key="0810" name="Laurentius" />
+  <day key="0811" name="Klara" />
+  <day key="0812" name="Hilaria" />
+  <day key="0813" name="Pont. u. H." />
+  <day key="0814" name="Max. K." />
+  <day key="0816" name="Stefan" />
+  <day key="0817" name="Hyazinth" />
+  <day key="0818" name="Helene" />
+  <day key="0819" name="Joh. Eudes" />
+  <day key="0820" name="Bernhard" />
+  <day key="0821" name="Pius X." />
+  <day key="0822" name="Maria K." />
+  <day key="0823" name="Rosa" />
+  <day key="0824" name="Bartholom." />
+  <day key="0825" name="Ludwig" />
+  <day key="0826" name="Marg. v. F." />
+  <day key="0827" name="Monika" />
+  <day key="0828" name="Augustin" />
+  <day key="0829" name="Sabine" />
+  <day key="0830" name="Heribert" />
+  <day key="0831" name="Raimund" />
+  <day key="0901" name="Ägidius" />
+  <day key="0902" name="René" />
+  <day key="0903" name="Gregor d. G." />
+  <day key="0904" name="Rosalia" />
+  <day key="0905" name="Albert" />
+  <day key="0906" name="Magnus" />
+  <day key="0907" name="Regina" />
+  <day key="0908" name="Maria Geb." />
+  <day key="0909" name="Orthold" />
+  <day key="0910" name="Nikolaus" />
+  <day key="0911" name="Helga" />
+  <day key="0912" name="Mariä N." />
+  <day key="0913" name="Notburga" />
+  <day key="0914" name="Kreuz-Erh." />
+  <day key="0915" name="Dolores" />
+  <day key="0916" name="Ludmilla" />
+  <day key="0917" name="Hildegard" />
+  <day key="0918" name="Richardis" />
+  <day key="0919" name="Wilma" />
+  <day key="0920" name="Eustachius" />
+  <day key="0921" name="Matthäus" />
+  <day key="0922" name="Moritz" />
+  <day key="0923" name="Thekla" />
+  <day key="0924" name="Rupert" />
+  <day key="0925" name="Nikolaus" />
+  <day key="0926" name="Kos. u. Dam." />
+  <day key="0927" name="Vinzenz" />
+  <day key="0928" name="Wenzel" />
+  <day key="0929" name="Michael	" />
+  <day key="0930" name="Hieronymus" />
+  <day key="1001" name="Theresia" />
+  <day key="1002" name="Schutzengelf." />
+  <day key="1003" name="Ewald" />
+  <day key="1004" name="Franz v. A." />
+  <day key="1005" name="Attila" />
+  <day key="1006" name="Renatus" />
+  <day key="1007" name="Markus I." />
+  <day key="1008" name="Demetrius" />
+  <day key="1009" name="Dionysius" />
+  <day key="1010" name="Franz B." />
+  <day key="1011" name="Bruno" />
+  <day key="1012" name="Maximilian" />
+  <day key="1013" name="Koloman" />
+  <day key="1014" name="Kallistus" />
+  <day key="1015" name="Ther. v. A." />
+  <day key="1016" name="Hedwig" />
+  <day key="1017" name="Rudolf" />
+  <day key="1018" name="Lukas E." />
+  <day key="1019" name="Paul v. Kr." />
+  <day key="1020" name="Wendelin" />
+  <day key="1021" name="Ursula" />
+  <day key="1022" name="Kordula" />
+  <day key="1023" name="Joh. C." />
+  <day key="1024" name="Anton" />
+  <day key="1025" name="Chr. u. D." />
+  <day key="1026" name="Nationalftg." />
+  <day key="1027" name="Frumentius" />
+  <day key="1028" name="Sim. u. J." />
+  <day key="1029" name="Hermelindis" />
+  <day key="1030" name="Alfons Rodr." />
+  <day key="1031" name="Wolfgang" />
+  <day key="1102" name="Allerseelen" />
+  <day key="1103" name="Hubert" />
+  <day key="1104" name="Karl Borr." />
+  <day key="1105" name="Emmerich" />
+  <day key="1106" name="Leonhard" />
+  <day key="1107" name="Engelbert" />
+  <day key="1108" name="Gottfried" />
+  <day key="1109" name="Theodor" />
+  <day key="1110" name="Leo d. Gr." />
+  <day key="1111" name="Martin v. T." />
+  <day key="1112" name="Kunibert" />
+  <day key="1113" name="Stanislaus" />
+  <day key="1114" name="Alberich" />
+  <day key="1115" name="Leopold" />
+  <day key="1116" name="M. v. S." />
+  <day key="1117" name="Gertrud" />
+  <day key="1118" name="Odo" />
+  <day key="1119" name="Elisabeth" />
+  <day key="1120" name="Edmund" />
+  <day key="1121" name="Mariä O." />
+  <day key="1122" name="Cäcilia" />
+  <day key="1123" name="Christkönig" />
+  <day key="1124" name="Flora" />
+  <day key="1125" name="Katharina" />
+  <day key="1126" name="Konrad" />
+  <day key="1127" name="Oda" />
+  <day key="1128" name="Gunther" />
+  <day key="1129" name="Jolanda" />
+  <day key="1130" name="Andreas	" />
+  <day key="1201" name="Blanka" />
+  <day key="1202" name="Bibiana" />
+  <day key="1203" name="Franz X." />
+  <day key="1204" name="Barbara" />
+  <day key="1205" name="Gerald" />
+  <day key="1206" name="Nikolaus" />
+  <day key="1207" name="Ambrosius" />
+  <day key="1208" name="Mariä Empf." />
+  <day key="1209" name="Valerie" />
+  <day key="1210" name="Diethard" />
+  <day key="1211" name="David" />
+  <day key="1212" name="Hartmann" />
+  <day key="1213" name="Lucia" />
+  <day key="1214" name="Johannes" />
+  <day key="1215" name="Christiana" />
+  <day key="1216" name="Adelheid" />
+  <day key="1217" name="Lazarus" />
+  <day key="1218" name="Wunibald" />
+  <day key="1219" name="Urban V." />
+  <day key="1220" name="Eugen v. A." />
+  <day key="1221" name="Hagar" />
+  <day key="1221" name="Peter" />
+  <day key="1222" name="Jutta" />
+  <day key="1223" name="Victoria" />
+  <day key="1224" name="Hl. Abend" />
+  <day key="1227" name="Joh. Ev." />
+  <day key="1228" name="Unsch. K." />
+  <day key="1229" name="Thomas" />
+  <day key="1230" name="Hermine" />
+  <day key="1231" name="Silvester" />
+ </namedays>
+</calendarmd>

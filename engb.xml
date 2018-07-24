@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="0" lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Monday" />
+  <day id="2" name="Tuesday" />
+  <day id="3" name="Wednesday" />
+  <day id="4" name="Thursday" />
+  <day id="5" name="Friday" />
+  <day id="6" name="Saturday" />
+  <day id="7" name="Sunday" />
+ </days>
+
+ <months>
+  <month id="1" name="January" />
+  <month id="2" name="February" />
+  <month id="3" name="March" />
+  <month id="4" name="April" />
+  <month id="5" name="May" />
+  <month id="6" name="June" />
+  <month id="7" name="July" />
+  <month id="8" name="August" />
+  <month id="9" name="September" />
+  <month id="10" name="October" />
+  <month id="11" name="November" />
+  <month id="12" name="December" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="New Year's Day" method="" metadata="" multi="0" />
+  <day key="0102" name="Winter Holiday" method="" metadata="" multi="0" />
+  <day key="0317" name="St. Patrick's Day" method="" metadata="" multi="0" />
+  <day key="GOODF" name="Good Friday" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Easter Monday" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="MYFM" name="Labour Day" method="GetFirstDayOfMonthMD" metadata="0501" multi="0" />
+  <day key="MYLM" name="Spring Bank Holiday" method="GetLastDayOfMonthMD" metadata="0501" multi="0" />
+  <day key="AULM" name="Late Summer Bank Holiday" method="GetLastDayOfMonthMD" metadata="0801" multi="0" />
+  <day key="1130" name="St. Andrew's Day" method="" metadata="" multi="0" />
+  <day key="1225" name="Christmas Day" method="" metadata="" multi="0" />
+  <day key="1226" name="Boxing Day" method="" metadata="" multi="0" />
+ </hollydays>
+ 
+</calendarmd>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="2" fweek="2" fontcharset="0"  lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="1" name="Lundi" />
+  <day id="2" name="Mardi" />
+  <day id="3" name="Mercredi" />
+  <day id="4" name="Jeudi" />
+  <day id="5" name="Vendredi" />
+  <day id="6" name="Samedi" />
+  <day id="7" name="Dimanche" />
+ </days>
+
+ <months>
+  <month id="1" name="Janvier" />
+  <month id="2" name="Février" />
+  <month id="3" name="Mars" />
+  <month id="4" name="Avril" />
+  <month id="5" name="Mai" />
+  <month id="6" name="Juin" />
+  <month id="7" name="Juillet" />
+  <month id="8" name="Août" />
+  <month id="9" name="Septembre" />
+  <month id="10" name="Octobre" />
+  <month id="11" name="Novembre" />
+  <month id="12" name="Décembre" />
+ </months>
+
+ <hollydays priority="1">
+  <day key="0101" name="Nouvel An" method="" metadata="" multi="0" />
+  <day key="GOODF" name="Pâques" method="GetGoodFriday" metadata="" multi="0" />
+  <day key="EAMO" name="Lundi de Pâques" method="GetEasterMonday" metadata="" multi="0" />
+  <day key="0501" name="Fête du Travail" method="" metadata="" multi="0" />
+  <day key="EASU39" name="Ascension" method="GetAscensionDay" metadata="" multi="0" />
+  <day key="EASU49" name="Pentecôte" method="GetPentecost" metadata="" multi="0" />
+  <day key="EASU50" name="Lundi de Pentecôte" method="GetWhitMonday" metadata="" multi="0" />
+  <day key="0721" name="Fête nationale" method="" metadata="" multi="0" />
+  <day key="0815" name="Assomption" method="" metadata="" multi="0" />
+  <day key="1101" name="Toussaint" method="" metadata="" multi="0" />
+  <day key="1111" name="Jour de l'armistice" method="" metadata="" multi="0" />
+  <day key="1226" name="Noël" method="" metadata="" multi="0" />
+ </hollydays>
+
+ <significantdays priority="3">
+  <day key="0106" name="Épiphanie" method="" metadata="" multi="0" />
+  <day key="0214" name="Saint-Valentin" method="" metadata="" multi="0" />
+  <day key="0927" name="Fête de la Communauté française de Belgique" method="" metadata="" multi="0" />
+  <day key="1102" name="Fête des morts" method="" metadata="" multi="0" />
+  <day key="1115" name="Fête du Roi" method="" metadata="" multi="0" />
+  <day key="1206" name="Saint-Nicolas" method="" metadata="" multi="0" />
+ </significantdays>
+ 
+ <namedays priority="0">
+ </namedays>
+</calendarmd>

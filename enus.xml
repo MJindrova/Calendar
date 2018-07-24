@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<calendarmd fdow="1" fweek="1" fontcharset="0" lc_dayname="0" lc_monthname="0">
+ <days>
+  <day id="2" name="Monday" />
+  <day id="3" name="Tuesday" />
+  <day id="4" name="Wednesday" />
+  <day id="5" name="Thursday" />
+  <day id="6" name="Friday" />
+  <day id="7" name="Saturday" />
+  <day id="1" name="Sunday" />
+ </days>
+
+ <months>
+  <month id="1" name="January" />
+  <month id="2" name="February" />
+  <month id="3" name="March" />
+  <month id="4" name="April" />
+  <month id="5" name="May" />
+  <month id="6" name="June" />
+  <month id="7" name="July" />
+  <month id="8" name="August" />
+  <month id="9" name="September" />
+  <month id="10" name="October" />
+  <month id="11" name="November" />
+  <month id="12" name="December" />
+ </months>
+ 
+ <hollydays priority="1">
+  <day key="0101" name="New Year's Day" method="" metadata="" multi="0" />
+  <day key="JATM" name="Martin Luther King Day" method="GetXDayOfMonthMD" metadata="010203" multi="0" />
+  <day key="FBTM" name="Presidents Day" method="GetXDayOfMonthMD" metadata="020203" multi="0" />
+  <day key="MYLM" name="Memorial Day" method="GetLastDayOfMonthMD" metadata="0502" multi="0" />
+  <day key="0704" name="Independence Day" method="" metadata="" multi="0" />
+  <day key="SEFM" name="Labor Day" method="GetFirstDayOfMonthMD" metadata="0902" multi="0" />
+  <day key="OCSM" name="Columbus Day" method="GetXDayOfMonthMD" metadata="100202" multi="0" />
+  <day key="1111" name="Veterans' Day" method="" metadata="" multi="0" />
+  <day key="NOFT" name="Thanksgiving Day" method="GetXDayOfMonthMD" metadata="110504" multi="0" />
+  <day key="1225" name="Christmas Day" method="" metadata="" multi="0" />
+  <day key="1226" name="federal employees extra day off for Christmas" method="" metadata="" multi="0" />
+ </hollydays>
+ 
+</calendarmd>
