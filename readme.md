@@ -30,7 +30,7 @@
 
 ## Examples
 ```
-SET PROCEDURE TO calendar_md.VCX ADDITIVE
+SET PROCEDURE TO calendar_md.prg ADDITIVE
 loCalendar=CREATEOBJECT("_mdcalendar") 
 loCalendar.LoadMDFromXML('enus.xml')
 ?loCalendar.GetProximateWorkDay(DATE()) && get proximate work day
